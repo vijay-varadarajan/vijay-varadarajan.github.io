@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-
-<html lang="en">
-    <head> 
+<html>
+    <head>
         <title>
-            My page
+
         </title>
+
+        <link href="../static/Register.css" rel="stylesheet">
     </head>
     <body>
-        <h1> This is my first github page </h1>
+    <div id="login-box">
+        <div class="left">
+        <h1 style="color: black;">Register</h1>
+        
+        <form action="/register" method="post">
+            <input type="text" name="username" placeholder="Username"  autocomplete="off" autofocus/>
+            <input type="text" name="email" placeholder="E-mail"  autocomplete="off"/>
+            <input type="password" name="password" placeholder="Password" autocomplete="off"/>
+            <input type="password" name="confirm_password" placeholder="Retype password"  autocomplete="off"/>
+            
+            <input type="submit" name="signup_submit" value="Sign me up" />
+        </form>
+        </div>
+        
+        <div class="right">
+            <div class="centered">
+            <img src="../static/pngwing.png">
+            </div>
+            
+        
+        </div>
+    
+    </div>
     </body>
-</html>
+  </html>
