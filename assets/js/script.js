@@ -158,36 +158,22 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
-incrementAndShowValue();
+var counterContainer = document.querySelector("#visitor-count");
+var visitCount = localStorage.getItem("page_view");
 
-function incrementAndShowValue() {
-  var value = getCookie("visitcounter") || 0;
-  var newValue = ("00000" + (Number(value) + 1)).slice(-6);
-  var container = document.getElementById("visitor-count");
-  String(newValue).split("").forEach(function(item, index) {
-    container.innerHTML = item;
-  });
-  counter++;
-  setCookie("visitcounter", counter);
+// Check if page_view entry is present
+if (visitCount) {
+  visitCount = Number(visitCount) + 1;
+  localStorage.setItem("page_view", visitCount);
+} else {
+  visitCount = 1;
+  localStorage.setItem("page_view", 1);
 }
+counterContainer.innerHTML = visitCount;
 
-function setCookie(name, value, days) {
-  var expires = "";
-  if (days) {
-    var date = new Date();
-    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-    expires = "; expires=" + date.toUTCString();
-  }
-  document.cookie = name + "=" + value + expires + "; path=https://stacksnippets.net/js";
-}
-
-function getCookie(name) {
-  var nameEQ = name + "=";
-  var ca = document.cookie.split(';');
-  for (var i = 0; i < ca.length; i++) {
-    var c = ca[i];
-    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-  }
-  return null;
-}
+// Adding onClick event listener
+resetButton.addEventListener("click", () => {
+  visitCount = 1;
+  localStorage.setItem("page_view", 1);
+  counterContainer.innerHTML = visitCount;
+});

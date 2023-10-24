@@ -459,11 +459,12 @@ main {
 
 #visitor-count {
   color: var(--orange-yellow-crayola);
+  font-size: 12px;
 }
 
 #visitor-count::before { content: "  "; }
 
-#visitor-count::after { content: "  visit"; }
+#visitor-count::after { content: " visits"; }
 
 
 /*-----------------------------------*\
