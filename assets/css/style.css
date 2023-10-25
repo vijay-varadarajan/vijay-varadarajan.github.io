@@ -605,7 +605,7 @@ main {
   left: 0;
   transform: translate(15px, -25px);
   background: var(--bg-gradient-onyx);
-  border-radius: 14px;
+  border-radius: 20px;
   box-shadow: var(--shadow-1);
 }
 
@@ -614,7 +614,10 @@ main {
   border-radius: 20px;
 }
 
-.testimonials-item-title { margin-bottom: 7px; }
+.testimonials-item-title { 
+  margin-bottom: 7px; 
+  margin-left: 9vh;
+}
 
 .testimonials-item-title-one { margin-bottom: 12px; }
 
@@ -654,7 +657,7 @@ main {
   visibility: hidden;
 }
 
-.modal-container img{
+.modal-content img{
   width: 100%;
 }
 
