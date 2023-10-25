@@ -135,6 +135,21 @@ for (let i = 0; i < formInputs.length; i++) {
 }
 
 
+document.getElementById("contact-form").addEventListener("submit", function (e) {
+  e.preventDefault(); // Prevent the default form submission.
+
+  const fullName = document.querySelector('input[name="fullname"]').value;
+  const email = document.querySelector('input[name="email"]').value;
+  const message = document.querySelector('textarea[name="message"]').value;
+
+  const subject = "Contact Form Submission";
+
+  const mailtoLink = `mailto:vijayvaradarajan84@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${fullName} Email: ${email} \nMessage: ${message}`)}`;
+
+  // Open the user's email client with the pre-filled email.
+  window.location.href = mailtoLink ;
+});
+
 
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
@@ -157,23 +172,3 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
-
-var counterContainer = document.querySelector("#visitor-count");
-var visitCount = localStorage.getItem("page_view");
-
-// Check if page_view entry is present
-if (visitCount) {
-  visitCount = Number(visitCount) + 1;
-  localStorage.setItem("page_view", visitCount);
-} else {
-  visitCount = 1;
-  localStorage.setItem("page_view", 1);
-}
-counterContainer.innerHTML = visitCount;
-
-// Adding onClick event listener
-resetButton.addEventListener("click", () => {
-  visitCount = 1;
-  localStorage.setItem("page_view", 1);
-  counterContainer.innerHTML = visitCount;
-});
