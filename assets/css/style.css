@@ -35,12 +35,12 @@
   ), hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
-    hsl(45, 100%, 71%) 0%, 
+    hsl(190, 93%, 62%) 0%, 
     hsla(36, 100%, 69%, 0) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
     135deg, 
-    hsla(45, 100%, 71%, 0.251) 0%, 
+    hsla(180, 100%, 59%, 0.251) 0%, 
     hsla(35, 100%, 68%, 0) 59.86%
   ), hsl(240, 2%, 13%);
   --border-gradient-onyx: linear-gradient(
@@ -50,8 +50,8 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+    hsl(186, 93%, 65%), 
+    hsl(193, 79%, 54%)
   );
 
   /* solid */
@@ -63,8 +63,8 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
+  --orange-yellow-crayola: hsl(186, 88%, 67%);
+  --vegas-gold: hsl(192, 83%, 54%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
@@ -336,7 +336,7 @@ main {
 }
 
 .avatar-box img {
-  border: 1px solid var(--orange-yellow-crayola);
+  border: 2px solid var(--orange-yellow-crayola);
   border-radius: 20px;
 }
 
@@ -1406,7 +1406,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 30px;
   }
 
-  .sidebar.active { max-height: 584px; }
+  .sidebar.active { max-height: 1024px; }
 
   .sidebar-info { gap: 25px; }
 
