@@ -139,12 +139,10 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
   e.preventDefault(); // Prevent the default form submission.
 
   const fullName = document.querySelector('input[name="fullname"]').value;
-  const email = document.querySelector('input[name="email"]').value;
+  const subject = document.querySelector('input[name="subject"]').value;
   const message = document.querySelector('textarea[name="message"]').value;
 
-  const subject = "Contact Form Submission";
-
-  const mailtoLink = `mailto:vijayvaradarajan84@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${fullName} Email: ${email} \nMessage: ${message}`)}`;
+  const mailtoLink = `mailto:vijayvaradarajan84@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${fullName} \nMessage: ${message}`)}`;
 
   // Open the user's email client with the pre-filled email.
   window.location.href = mailtoLink ;

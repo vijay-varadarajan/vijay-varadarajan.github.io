@@ -799,6 +799,17 @@ main {
 
 .article-title { margin-bottom: 30px; }
 
+header a {
+  translate: 160px -90px;
+}
+
+header img {
+  width: 34px;
+  border: 2px solid #43d7f1;
+  padding: 6px;
+  border-radius: 50px;
+  margin-bottom: -30px;
+}
 
 /**
  * education and experience 
@@ -1278,7 +1289,20 @@ textarea.form-input::-webkit-resizer { display: none; }
   #RESPONSIVE
 \*-----------------------------------*/
 
-@media (min-width: 51px){
+@media (min-width: 49px){
+
+  header a {
+    translate: 120px -72px;
+    width: 34px;
+  }
+  
+  header img {
+    width: 34px;
+    border: 2px solid #43d7f1;
+    padding: 6px;
+    border-radius: 50px;
+    margin-bottom: -30px;
+  }
 
   .sidebar {
     margin-top: 120px;
@@ -1287,6 +1311,19 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 @media (min-width: 282px){
+
+  header a {
+    translate: 120px -72px;
+    width: 34px;
+  }
+  
+  header img {
+    width: 34px;
+    border: 2px solid #43d7f1;
+    padding: 6px;
+    border-radius: 50px;
+    margin-bottom: -30px;
+  }
   
   .sidebar {
     margin-top: 80px;
@@ -1306,7 +1343,19 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .clients-item { min-width: calc(33.33% - 10px); }
 
-
+  
+  header a {
+    translate: 120px -72px;
+    width: 34px;
+  }
+  
+  header img {
+    width: 34px;
+    border: 2px solid #43d7f1;
+    padding: 6px;
+    border-radius: 50px;
+    margin-bottom: -30px;
+  }
 
   /**
    * #PORTFOLIO, BLOG 
@@ -1580,6 +1629,19 @@ textarea.form-input::-webkit-resizer { display: none; }
    * #RESUME
    */
 
+   header a {
+    translate: 160px -86px;
+    width: 34px;
+  }
+  
+  header img {
+    width: 34px;
+    border: 2px solid #43d7f1;
+    padding: 6px;
+    border-radius: 50px;
+    margin-bottom: -30px;
+  }
+
   .timeline-list { margin-left: 65px; }
 
   .timeline-item:not(:last-child)::before { left: -40px; }
@@ -1720,7 +1782,18 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
 
-
+  header a {
+    translate: 160px -91px;
+    width: 34px;
+  }
+  
+  header img {
+    width: 34px;
+    border: 2px solid #43d7f1;
+    padding: 6px;
+    border-radius: 50px;
+    margin-bottom: -30px;
+  }
 
   /**
    * CONTACT
