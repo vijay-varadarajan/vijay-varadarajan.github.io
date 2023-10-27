@@ -106,7 +106,7 @@
    * transition
    */
 
-  --transition-1: 0.25s ease;
+  --transition-1: 0.2s ease;
   --transition-2: 0.5s ease-in-out;
 
 }
@@ -787,7 +787,7 @@ main {
   transition: var(--transition-1);
 }
 
-.clients-item img:hover { filter: saturate(1.2) ; width: 108%; }
+.clients-item img:hover { filter: saturate(1.2) ; width: 105%; }
 
 
 
