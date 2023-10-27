@@ -170,3 +170,17 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+document.getElementById("downloadButton").addEventListener("click", function() {
+  // Create an anchor element
+  var a = document.createElement("a");
+  
+  // Set the href to the file URL you want to download
+  a.href = "https://gdurl.com/a9M0/download"; // Replace with your file's URL
+  
+  // Set the download attribute to specify the filename
+  a.download = "Vijay_Varadarajan-Resume.pdf"; // Replace with your desired filename
+  
+  // Programmatically trigger a click event on the anchor element
+  a.click();
+});
