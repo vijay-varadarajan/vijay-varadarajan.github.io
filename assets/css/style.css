@@ -801,6 +801,19 @@ main {
 
 #downloadButton {
   translate: 160px -90px;
+  transition: var(--transition-1);
+}
+
+#downloadButton:hover {
+  transform: scale(1.1);
+}
+
+#downloadButton:active{
+  transform: scale(0.9);
+}
+
+#downloadButton:default{
+  transform: scale(1);
 }
 
 header img {
