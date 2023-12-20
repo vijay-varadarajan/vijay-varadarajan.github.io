@@ -184,3 +184,21 @@ document.getElementById("downloadButton").addEventListener("click", function() {
   // Programmatically trigger a click event on the anchor element
   a.click();
 });
+
+
+const the_animation = document.querySelectorAll('.transparent');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+      }
+      else {
+          entry.target.classList.remove('active');
+      }
+  })
+}, { threshold: 0.1 });
+
+the_animation.forEach((element) => {
+  observer.observe(element);
+})
