@@ -1,1292 +1,2475 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Portfolio</title>
+    <title>Vijay Varadarajan - Portfolio</title>
+    <META name="keywords"
+        content="vijay, vijay-varadarajan, Vijay Varadarajan, VJ, Varadarajan, VIJAY">
+    <META name="description"
+        content="Official portfolio website of Vijay Varadarajan.
+        Software | Automation | Web Development | Machine Learning | Bioinformatics">
+    <link rel="shortcut icon" href="Images/logo.jpg" type="image/jpeg" />
+    <link rel="canonical" href="https://vijayvaradarajan.co/" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/particles.css">
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./js/particles.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Official portfolio website of Vijay Varadarajan.
+        Software | Automation | Web Development | Machine Learning | Bioinformatics">
+    <meta property="og:image"
+        content="Images/Vijay-Linkedin-profile.jpg">
 </head>
 
-<body>
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar active" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/Vijay-profile.jpg" alt="Vijay Varadarajan" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Vijay Varadarajan">Vijay Varadarajan</h1>
-
-          <p class="title title-one">ML Enthusiast</p>
-          <p class="title">Web developer</p>
-        </div>
-
-        <button class="info_more-btn active" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div id="particles-js" style="z-index: 0;"></div>
+    <nav id="myNavbar" class="navbar navbar-expand-lg navbar-dark" style="z-index: 99;">
+        <a class="navbar-brand" href="#" style="font-size: 22px; font-weight: 300"><b>VJ</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:vijayvaradarajan84@gmail.com" class="contact-link">vijayvaradarajan84@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+917358527979" class="contact-link">+91 73585 27979</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="2005-06-06">June 06, 2005</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Vellore, TamilNadu, India</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/vijay-varadarajan-630597200/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-          
-          <li class="social-item">
-              <a href="https://www.github.com/vijay-varadarajan" class="social-link">
-                  <ion-icon name="logo-github"></ion-icon>
-                </a>
-            </li>
-
-            <li class="social-item">
-                <a href="https://www.discordapp.com/users/811927228983934976" class="social-link">
-                    <ion-icon name="logo-discord"></ion-icon>
-                </a>
-            </li>
-
-            <li class="social-item">
-                <a href="https://www.youtube.com/channel/UCU5QMCDNBZKm9YLQqyaNfGQ" class="social-link">
-                    <ion-icon name="logo-youtube"></ion-icon>
-                </a>
-            </li>
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about active" data-page="about">
-
-        <div class="transparent">
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            <b>Web Developer | ML Enthusiast | Problem Solver | Hackathon Freak</b>
-          </p>
-          <p>
-            <b>Sophomore</b> Computer Science student at VIT University, Vellore, passionate about <b>Web Development</b> using Python and <b>Machine Learning</b>.
-            Proficient in <b>Python programming</b> and experienced in <b>Django</b> and <b>TensorFlow</b>.
-          </p>
-          <p>
-            Currently immersed in the world of <b>Deep Learning</b> and <b>Computer Vision</b>, keeping up with AI trends, building projects and expanding my knowledge in the same.
-          </p>
-          <p>
-            A <b>problem solver</b> and a <b>quick learner</b>, always looking to learn new things, expand my skillset and ready to collaborate on exciting project ventures.
-          </p>
-          <p>
-            In addition to tech, I'm a <b>Fitness Enthusiast</b>, <b>Rubik's Cube solver</b>, and an avid reader of <b>Detective Fiction</b>.
-          </p>
-        </section>
-      </div>
-
-        <!--
-          - service
-        -->
-
-        <div class="whatIdo transparent">
-        <section class="service">
-          
-          <h3 class="h3 service-title">What I do</h3>
-
-          <ul class="service-list">
-
-            <div class="transparent">
-            <li class="service-item">
-
-            <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-                </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Backend Web Development</h4>
-
-                <p class="service-item-text">
-                    Development of high-quality python and js based web projects.
-                </p>
-              </div>
-
-            </li>
-            </div>
-
-            <div class="transparent">
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Deep Learning projects</h4>
-
-                <p class="service-item-text">
-                    Driving breakthroughs with OpenCV-powered Deep Learning solutions.
-                </p>
-              </div>
-            </div>
-
-            </li>
-
-            <div class="transparent">
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg" alt="Database icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Problem Solving</h4>
-
-                <p class="service-item-text">
-                    Effective solutions for complex problems and challenges.
-                </p>
-            </div>
-            
-            </li>
-            </div>
-
-            <div class="transparent">
-            <li class="service-item">
-
-                <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-                </div>
-              
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Open Source Contributions</h4>
-                
-                <p class="service-item-text">
-                    Fostering collaboration and novelty through innovative contributions.
-                </p>
-            </div>
-
-            </li>
-            </div>
-
-          </ul>
-
-        <!--
-          - Certifications
-        -->
-
-        </section>
-      </div>
-
-      <div class="transparent">
-        <section class="clients">
-
-            <h3 class="h3 clients-title">Certifications</h3>
-
-            <ul class="clients-list has-scrollbar">
-            
-            <li class="clients-item">
-                <a href="https://www.linkedin.com/learning/certificates/3b2247af23df53fe950f41696431cc3d4f5b2c210ff5ceddc041969f4bda7efe?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bg6tSYnrAQb2LyhUSznOBtw%3D%3D">
-                <img src="./assets/images/Linkedin-MS-CareerEssentialsInDataAnalysis.jpeg" alt="client logo" loading="lazy">
-                </a>
-            </li>
-
-            <li class="clients-item">
-                <a href="https://certificates.cs50.io/5caf5270-5948-4704-95a5-19432887442e.pdf">
-                <img src="./assets/images/CS50x.png" alt="client logo" loading="lazy">
-                </a>
-            </li>
-
-            <li class="clients-item">
-                <a href="https://certificates.cs50.io/c1f7ecb4-bef9-47f4-b831-425402a6bf15.pdf">
-                <img src="./assets/images/CS50P.png" alt="client logo" loading="lazy">
-                </a>
-            </li>
-            
-            <li class="clients-item">
-                <a href="https://www.hackerrank.com/certificates/d5c78274ba02">
-                <img src="./assets/images/Hackerrank-problem_solving-basic.png" alt="client logo" loading="lazy">
-                </a>
-            </li>
-
-            <li class="clients-item">
-                <a href="https://www.hackerrank.com/certificates/9e83086987c2">
-                <img src="./assets/images/Hackerrank-python-basic.png" alt="client logo" loading="lazy">
-                </a>
-            </li>
-
-            <li class="clients-item">
-                <a href="https://www.hackerrank.com/certificates/bb25b3fb0b8f">
-                <img src="./assets/images/Hackerrank-sql-basic.png" alt="client logo" loading="lazy">
-                </a>
-            </li>
-
-            <li class="clients-item">
-                <a href="https://www.hackerrank.com/certificates/863a35069d68">
-                <img src="./assets/images/Hackerrank-sql-intermediate.png" alt="client logo" loading="lazy">
-                </a>
-            </li>
-
+        <div class="collapse navbar-collapse" id="navbarNav" style="z-index: 99;">
+            <ul class="nav navbar-nav ml-auto" style="z-index: 99;">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" style="z-index: 99;">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" style="z-index: 99">
+                    <a class="nav-link" href="#aboutMe">About Me</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" style="z-index: 99">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" style="z-index: 99">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" style="z-index: 99">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" style="z-index: 99">
+                    <a class="nav-link" href="#myWork">Projects</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" style="z-index: 99">
+                    <a class="nav-link" href="#activities">Highlights</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" style="z-index: 99">
+                    <a class="nav-link" href="#myContact">Contact</a>
+                </li>
             </ul>
+        </div>
+    </nav>
 
-        </section>
-      </div>
+    <style>
+        #imgstyles {
+            border-radius: 50%;
+            border: 2px solid #FFFFFF;
+            margin-bottom: 10px;
+        }
 
+        #imgstyles:hover {
+            transform: scale(1.05);
+            transition: transform 0.2s;
+        }
+    </style>
 
-        <!--
-          - testimonials
-        -->
-      <div class="transparent">
-        <section class="testimonials">
+    <!-- Home Section START -->
+    <section id="home" style="margin-top: 2%">
+        <img id="imgstyles" class="d-block mx-auto" src="Images/Vijay-Linkedin-profile.jpg" height="232" width="auto"
+            data-aos="zoom-in-up">
+        <div class="h1 mt-3 text-center" style="color: #FFFFFF; font-weight: 600">Vijay Varadarajan</div>
 
-          <h3 class="h3 testimonials-title">Highlights</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item testimonials-item-one">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/logo-hacktoberfest.png" alt="Hacktoberfest Logo" width="40" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title> Hacktoberfest'23 badges </h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <a href="https://holopin.io/@vijayvaradarajan" class="href" target="_blank">
-                    <img src="https://holopin.me/vijayvaradarajan" alt="An image of @vijayvaradarajan's Holopin badges, which is a link to view their full Holopin profile(https://holopin.me/vijayvaradarajan)">
-                  </a>
-                </div>
-                
-              </div>
-            </li>
-            
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/tree-nation-logo.png" alt="Hacktoberfest Logo" width="40" data-testimonials-avatar>
-                </figure>
-
-                <h5 class="h5 testimonials-item-title" data-testimonials-title>Tree planted for contributing in Hacktoberfest</h5>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <a href="https://tree-nation.com/trees/view/5303211" class="href" target="_blank">
-                    <img src="./assets/images/tree-nation-hacktoberfest-two.png" alt="Image of tree planted by Tree nation for Hacktoberfest for my PR contribution." style="width:88%">
-                  </a>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/iet-vit-logo.png" alt="Hacktoberfest Logo" width="40" data-testimonials-avatar>
-                </figure>
-
-                <h5 class="h5 testimonials-item-title" data-testimonials-title>DevOps Workshop by IET-VIT</h5>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <a href="https://www.linkedin.com/posts/vijay-varadarajan-630597200_techenthusiast-devops-relaycoding-activity-7113413468728303616-TiMh?utm_source=share&utm_medium=member_desktop" class="href" target="_blank">
-                    <img src="./assets/images/gravitas23-workshop-image.jpg" alt="Image of myself speaking at a workshop by IET-VIT for gravitas" style="width:66%">
-                  </a>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/colt-karate-logo.webp" alt="Colt Karate Logo" data-testimonials-avatar>
-                </figure>
-
-                <h5 class="h5 testimonials-item-title" data-testimonials-title>Karate Black belt: 3rd Degree</h5>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <a href="./assets/images/karate-black3.jpeg" class="href" target="_blank">
-                    <img src="./assets/images/karate-black3.jpeg" alt="Image of Black belt degree 3 certificate" style="width:44%" loading="lazy">
-                  </a>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/colt-karate-logo.webp" alt="Colt Karate Logo" data-testimonials-avatar>
-                </figure>
-
-                <h5 class="h5 testimonials-item-title" data-testimonials-title>Silver medalist in State Level Karate Championship 2022</h5>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <a href="./assets/images/state-level-karate.jpeg" class="href" target="_blank">
-                    <img src="./assets/images/state-level-karate.jpeg" alt="Image of Black belt degree 3 certificate" style="width:18%" loading="lazy">
-                  </a>
-                </div>
-
-              </div>
-            </li>
-
-
-          </ul>
-
-        </section>
+        <div class="cd-intro m-3 text-center">
+            <h4 class="cd-headline slide">
+                <span class="cd-words-wrapper" style="width:250px !important; color: #3a6bff">
+                    <b class="is-visible">Automation</b>
+                    <b>Data Analytics</b>
+                    <b>Web Dev</b>
+                    <b>Machine Learning</b>
+                    <b>Bioinformatics</b>
+                    <b>Technical Writing</b>
+                </span>
+            </h4>
         </div>
 
-        <!--
-          - testimonials modal
-        -->
 
-        <div class="modal-container" data-modal-container>
+        <style>
+            .btn{
+                border-radius: 10px;
+                background-color: #2563eb;
+                border: 2px solid #2563eb;
+                width: 150px;
+                height: 42px;
+                padding-top: 8px;
+            }
+        </style>
+        <div class="d-flex align-items-center" style="z-index: 1;">
+            <a href="https://drive.google.com/open?id=1z7Q8rg_ObH0dY-UNoY46vpReEBGAExyK&usp=drive_fs"
+                class="btn btn-outline-light d-block mx-auto m-4" target="_blank" role="button" style="z-index: 1;"><i
+                    class="fas fa-file mr-2"></i>
 
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/logo-hacktoberfest.png" alt="Logo" width="40" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>...</h4>
-
-              <br>
-
-              <div data-modal-text id="testimonials-modal-text">
-                <p>
-                 
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
+                <b>Resume</b></a>
         </div>
 
-      </article>
+        <style>
+            #main-socials a:hover{
+                transform: translateY(-2px);
+                transition: transform 0.2s;
+            }
+        </style>
 
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-          <button id="downloadButton"><img src="./assets/images/icons8-download-24.png"></button>
-        </header>
-
-        <div class="transparent">
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">VIT University, Vellore, India</h4>
-
-              <p class="timeline-text">
-                B.Tech Computer Science and Engineering with specialization in Bioinformatics
-              </p>
-              
-              <span>Sept 2022 — 2026</span>
-
-              <p class="timeline-description-text">
-                <b>Current CGPA: 9.43</b>. Theoretical and Practical knowledge on various significant domains in Computer Science and Engineering. Expected to graduate in 2026.
-              </p>
-              
-              
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Computer Software College (CSC), Chennai, India</h4>
-
-              <p class="timeline-text">
-                Diploma in Computer Programming - General
-              </p>
-
-              <span>Jun 2022 - Sept 2022</span>
-              
-              <p class="timeline-description-text">
-                <b>Grade: A</b>. Obtained elaborate knowledge on softwares such as MS Word, MS Excel and Powerpoint. Also covered basic concepts of programming in C, C++, Python and HTML.
-              </p>
-              
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Alpha Matriculation Higher Secondary School, Chennai, India</h4>
-              
-              <p class="timeline-text">
-                High School Diploma - Biological and Physical Sciences
-              </p>
-
-              <span>May 2019 — Jun 2022</span>
-
-              <p class="timeline-description-text">
-                <b>Grade: 96.5%</b>. Completed Higher Secondary majoring in the subjects of Physics, Chemistry, Biology, and Mathematics. Activities and societies: Junior Red Cross, Tamil Literary Club.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
+        <div id="main-socials" class="container-fluid d-block mx-auto text-center" style="width:fit-content;" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
+            <a href="mailto: vijayvaradarajan84@gmail.com" target="_blank"
+            class="fas fa-envelope" style="color: #ff4b4b; font-size: 32px; margin: 1px 10px -10px 0"></a>
+            <a href="https://github.com/vijay-varadarajan" target="_blank"
+            class="fab fa-github" style="color: #ffffff; font-size:32px;"></a>
+            <a href="https://www.discordapp.com/users/811927228983934976" target="_blank"
+            class="fab fa-discord" style="color: #897eff; font-size: 32px"></a>
+            <a href="https://www.linkedin.com/in/vijay-varadarajan" target="_blank"
+            class="fab fa-linkedin" style="color: #3a6bff; font-size:32px"></a>
         </div>
+    </section>
+    <!-- Home Section END -->
 
-        <div class="transparent whatIdo">
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Inner Core Member (IET-VIT Chapter)</h4>
-
-              <span>May 2023 — Present</span>
-
-              <p class="timeline-description-text">
-                • Collaborated with fellow members to build a web portal for 'relay-coding', a hackathon by IET-VIT<br>        
-                • Worked with the organising team to conduct a workshop on DevOps, for Gravitas'23 at VIT University. 
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Technical Team Member (IET-VIT Chapter)</h4>
-
-              <span>March 2023 — May 2023</span>
-
-              <p class="timeline-description-text">
-                • Volunteered to organize various events conducted by the Chapter in the University. <br>
-                • Worked on multiple projects including a flower-recogniser under Deep Learning.
-              </p>
-              
-            </li>
+    <style>
+        .scroll-down {
+            bottom: 20px;
+            left: 50%;
             
-            <li class="timeline-item">
-              
-              <h4 class="h4 timeline-item-title">Fitness Team Member (Fitness and Beyond Club-VIT)</h4>
-              
-              <span>March 2023 — Present</span>
-
-              <p class="timeline-description-text">
-                • Worked in the organising team in 'Athletic Trifecta', a fitness event conducted by the club. <br>
-                • Participated in the various mental and physical fitness activities conducted by the club.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-        </div>
-
-        <div class="transparent">
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Python Web Development</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Deep learning - Tensorflow and OpenCV</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Data Analysis</h5>
-                <data value="60">60%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 60%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Open Source - Documentation</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-        </div>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Machine Learning</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web Development</button>
-            </li>
-            
-            <li class="filter-item">
-              <button data-filter-btn>Open Source Contributions</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Machine Learning</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web Development</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Open Source Contributions</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-            
-            <li class="project-item  active" data-filter-item data-category="Web Development">
-              <a href="https://github.com/vijay-varadarajan/The-Bam-Website" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/thebam-frontend.png" alt="relay coding" loading="lazy" width="276" height="146">
-                </figure>
-
-                <h3 class="project-title">The Bam Website </h3>
-                
-                <p class="project-category">Web Development</p>
-
-                <p class="social-item project-category">
-                  <a href="https://github.com/vijay-varadarajan/The-Bam-Website" target="_blank" class="social-link">
-                    <ion-icon name="logo-github"></ion-icon>
-                  </a>
-                </p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Web Development">
-              <a href="https://rc.ietvit.tech" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/relay-coding.png" alt="relay coding" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Relay Coding </h3>
-                
-                <p class="project-category">Web Development</p>
-
-                <p class="social-item project-category">
-                  <a href="https://www.github.com/vijay-varadarajan/relay-coding" target="_blank" class="social-link">
-                    <ion-icon name="logo-github"></ion-icon>
-                  </a>
-                </p>
-
-              </a>
-            </li>
-            
-            <li class="project-item  active" data-filter-item data-category="Open Source Contributions">
-              <a href="https://github.com/PentW0lf/OnlineCarBooking/pull/4" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/online-car-booking-readme.png" alt="online-car-booking-readme" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Online Car Booking Site</h3>
-                
-                <p class="project-category">Open Source Contribution</p>
-                <p class="project-category"><i>Docs / README.md</i></p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Open Source Contributions">
-              <a href="https://github.com/zer0Kerbal/Proton/pull/55" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/proton-translation.png" alt="proton-translation" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Proton</h3>
-                
-                <p class="project-category">Open Source Contribution</p>
-                <p class="project-category"><i>Docs / Translation-French</i></p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Open Source Contributions">
-              <a href="https://github.com/zer0Kerbal/PiratesoftheKeribbean/pull/42" target="_blank">
-                
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/piratesofthekeribbean-translation.png" alt="piratesofthekeribbean-translation" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Pirates of the Keribbean</h3>
-                
-                <p class="project-category">Open Source Contribution</p>
-                <p class="project-category"><i>Docs / Translation-Frenc</i>h</p>
-                
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Machine Learning">
-              <a href="https://flower-recognition-5.streamlit.app/" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/flower-recognition.png" alt="flower-recognition" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Flower Classification</h3>
-
-                <p class="project-category">Deep Learning</p>
-
-                <p class="social-item project-category">
-                  <a href="https://github.com/vijay-varadarajan/Flower-recogniser" target="_blank" class="social-link">
-                    <ion-icon name="logo-github"></ion-icon>
-                  </a>
-                </p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Machine Learning">
-              <a href="https://heart-failure-risk-predictor.streamlit.app/" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/heart-failure-predictor.png" alt="heart-failure-predictor" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Heart Failure Risk Predictor</h3>
-
-                <p class="project-category">Machine Learning</p>
-
-                <p class="social-item project-category">
-                  <a href="https://github.com/vijay-varadarajan/Heart-failure-predictor" target="_blank" class="social-link">
-                    <ion-icon name="logo-github"></ion-icon>
-                  </a>
-                </p>
-
-              </a>
-            </li>
-            
-            <li class="project-item  active" data-filter-item data-category="Open Source Contributions">
-              <a href="https://github.com/maddox05/image-editor-lite/pull/2" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/image-editor-lite-readme.png" alt="image-editor-lite-readme" loading="lazy">
-                </figure>
-                
-                <h3 class="project-title">Image Editor  Lite</h3>
-
-                <p class="project-category">Open Source Contribution</p>
-                <p class="project-category"><i>Docs / README.md</i></p>
-                
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Open Source Contributions">
-              <a href="https://github.com/Virtual4087/Tree2Hope/pull/35" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/tree2hope-readme.png" alt="tree2hope-readme" loading="lazy">
-                </figure>
-                
-                <h3 class="project-title">Tree2hope</h3>
-                
-                <p class="project-category">Open Source Contribution</p>
-                <p class="project-category"><i>Docs / fix README.md</i></p>
-                
-              </a>
-            </li>
-            
-            <li class="project-item  active" data-filter-item data-category="Web Development">
-              <a href="https://vetconnect.pythonanywhere.com" target="_blank">
-      
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  
-                  <img src="./assets/images/vetconnecthome.png" alt="vetconnect" loading="lazy">
-                </figure>
-      
-                <h3 class="project-title">VetConnect</h3>
-                
-                <p class="project-category">Web Development</p>
-
-                <p class="social-item project-category">
-                  <a href="https://github.com/vijay-varadarajan/VetConnect" target="_blank" class="social-link">
-                    <ion-icon name="logo-github"></ion-icon>
-                  </a>
-                </p>
-      
-              </a>
-            </li>
-          </ul>
-
-        </section>
+            animation: bounce 2s infinite;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 20px 0 4px 0;
+        }
         
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-      -->
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <div class="transparent">
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.270267812217!2d79.1559336!3d12.9692232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad479f0ccbe067%3A0xfef222e5f36ecdeb!2sVellore%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1647610120197!5m2!1sen!2sin"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
+        .scroll-down span {
+            display: block;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 15px solid #fff;
+            animation: bounce 2s infinite;
+        }
+        
+        .scroll-down::after {
+            content: "Scroll Down";
+            margin-top: 5px;
+            animation: fadeIn 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0px);
+            }
+            40% {
+                transform: translateY(-5px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+        
+        @keyframes fadeIn {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.5;
+            }
+        }
+    </style>
+
+    <a href="#aboutMe">
+    <div class="scroll-down">
+        <span></span>
+    </div>
+    </a>
+
+    <!-- About Section START -->
+
+    <style>
+    .about-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 4rem 1rem 1rem 1rem;
+    }
+    
+    .about-header {
+        text-align: center;
+        margin: 2rem 0 0 0;
+        position: relative;
+        padding-bottom: 0rem;
+    }
+    
+    .about-header::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 3px;
+        background: linear-gradient(90deg, #2563eb, #3a6bff);
+    }
+    
+    .about-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        opacity: 0;
+        animation: fadeIn 1s ease-out forwards;
+    }
+    
+    .about-text {
+        background: rgba(255, 255, 255, 0);
+        padding: 0 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+    
+    .about-text:hover {
+        transform: translateY(-5px);
+    }
+    
+    .skill-tags {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        margin: 1rem 0;
+    }
+    
+    .skill-tag {
+        background: #2563eb;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+    }
+    
+    .section-title {
+        color: #3a6bff;
+        font-weight: bold;
+        margin: 1.5rem 0 0.5rem 0;
+        text-align: center;
+    }
+    
+    .interests {
+        display: flex;
+        gap: 1rem;
+        margin: 1rem 0;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: #2563eb;
+    }
+    
+    .interest-item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: #f3f4f6;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+    }
+
+    .skill-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin: 1rem 0;
+    }
+    
+    .skill-tag {
+        background: #2563eb;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        transition: all 0.3s ease;
+        cursor: default;
+    }
+    
+    .skill-tag:hover {
+        transform: translateY(-3px);
+        background: #1d4ed8;
+        box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+    }
+    
+    .interests {
+        display: flex;
+        gap: 1rem;
+        margin: 1rem 0;
+        flex-wrap: wrap;
+    }
+    
+    .interest-item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: #f3f4f6;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        transition: all 0.2s ease;
+        cursor: default;
+    }
+    
+    .interest-item:hover {
+        transform: scale(1.05);
+        background: #e5e7eb;
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+    @media (max-width: 768px) {
+        .about-container {
+            padding: 2rem 1rem;
+        }
+        
+        .about-text {
+            padding: 1.5rem;
+        }
+        
+        .skill-tags {
+            gap: 0.3rem;
+        }
+        
+        .skill-tag {
+            font-size: 0.8rem;
+        }
+    }
+    </style>
+
+    <section class="about-container" id="aboutMe">
+        <div class="h1 text-center" data-aos="zoom-in-up">
+        <h1 class="about-header">
+            About Me
+        </h1>
         </div>
-
-        <div class="transparent whatIdo">
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Email Me </h3>
-
-          <form action="#" class="form" id="contact-form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="subject" name="subject" class="form-input" placeholder="Subject" required data-form-input>
+        
+        <div class="about-content" data-aos="fade-up">
+            <div class="about-text" data-aos="fade-up">
+                <div class="skill-tags" data-aos="fade-up">
+                    <span class="skill-tag">Automation</span>
+                    <span class="skill-tag">Data Analytics</span>
+                    <span class="skill-tag">Web Development</span>
+                    <span class="skill-tag">Machine Learning</span>
+                    <span class="skill-tag">Bioinformatics</span>
+                </div>
+                
+                <p style="text-align: justify;">
+                    I am Vijay Varadarajan, a 3rd year Bachelors' student pursuing <b>Computer Science with Bioinformatics</b>, with experience in python automation and data analysis and expertise in developing robust web applications. I bring a comprehensive approach to data analytics and machine learning solutions.
+                </p>
+                
+                <p style="text-align: justify;">
+                    My current focus lies in applying Computer Science techniques to Automation, pipeline development, and Bioinformatics, constantly pushing the boundaries of what's possible in these domains.
+                </p>
+                
+                <div class="section-title">Leadership & Collaboration</div>
+                <p>
+                    A natural team leader with proven success in guiding teams through Hackathons, I thrive in collaborative environments. My commitment to continuous learning keeps me at the forefront of the rapidly evolving tech landscape.
+                </p>
+                
+                <div class="section-title">Current Focus</div>
+                <p>
+                    Currently deepening my expertise in Python automation, Geospatial analytics, and advanced Bioinformatics technologies. Always eager to push the boundaries of what's possible in these fields.
+                </p>
+                
+                <div class="section-title">Collaboration Interests</div>
+                <p>
+                    Actively seeking partnerships on innovative projects in Automation, Machine Learning, and Data Analytics. Passionate about contributing to open source and gaining industrial experience. Let's connect and create meaningful impact together!
+                </p>
+                
+                <div class="section-title">Beyond Tech</div>
+                <div class="interests" data-aos="fade-up">
+                    <span class="interest-item">🏋️ Fitness Enthusiast</span>
+                    <span class="interest-item">🧊 Rubik's Cuber</span>
+                    <span class="interest-item">📚 Detective Fiction Reader</span>
+                </div>
             </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-           
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
         </div>
+    </section>
+    <!-- About Section END -->
 
-      </article>
+    <!-- Experience Section START -->
+    
+<style>
 
+
+.about-header {
+    text-align: center;
+    margin-bottom: 1rem;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.about-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #2563eb, #3b82f6);
+}
+
+.experience-list {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.experience-item {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.266);
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.experience-content {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.company-logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    padding: 0.5rem;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-logo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.experience-details .duration {
+    color: #b7b6bb;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.experience-details .position {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.experience-details .company {
+    color: #FFFFFF;
+    margin: 0.5rem 0;
+}
+
+.experience-details .company a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.experience-details .company a:hover {
+    color: #3a6bff;
+}
+
+.experience-details .location {
+    color: #b7b6bb;
+    font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+    .experience-container {
+        padding: 2rem 1rem;
+    }
+    
+    .experience-content {
+        gap: 1rem;
+    }
+    
+    .company-logo {
+        width: 48px;
+        height: 48px;
+    }
+}
+</style>
+
+<section class="experience-container" id="experience">
+
+    <div class="h1 text-center" data-aos="zoom-in-up">
+        <h1 class="about-header">My Experience</h1>
     </div>
 
-  </main>
+    <div class="experience-list" data-aos="fade-up">
+        <div class="experience-item">
+            <div class="experience-content">
+                <div class="company-logo">
+                    <img src="https://scientiflow.com/scientiflow-assets/logos/scientiflow.svg" alt="Scientiflow"/>
+                </div>
+                <div class="experience-details">
+                    <div class="duration">Oct. 2024 - PRESENT</div>
+                    <div class="position">Automation and Bioinformatics Intern</div>
+                    <div class="company">
+                        <a href="https://scientiflow.com" target="_blank">Scientiflow ↗️</a>
+                    </div>
+                    <div class="location">Vellore, Tamil Nadu, India</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-content">
+                <div class="company-logo">
+                    <img src="https://finflow.in/images/logo.svg" alt="Finflow Tech"/>
+                </div>
+                <div class="experience-details">
+                    <div class="duration">May. 2024 - Aug. 2024</div>
+                    <div class="position">Information Technology Intern</div>
+                    <div class="company">
+                        <a href="https://finflow.in/" target="_blank">Finflow Tech ↗️</a>
+                    </div>
+                    <div class="location">Vellore, Tamil Nadu, India</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-content">
+                <div class="company-logo">
+                    <img src="https://media.licdn.com/dms/image/v2/C4D0BAQGKAupPjo3JFw/company-logo_200_200/company-logo_200_200/0/1680173544923/kyure_logo?e=2147483647&v=beta&t=RMKsV1b2CCAwbhKJgxwFK-i6rlrLiWp6x_nCLhyL0pY" alt="ScaleReal"/>
+                </div>
+                <div class="experience-details">
+                    <div class="duration">Jan. 2024 - Apr. 2024</div>
+                    <div class="position">Data Analyst Intern</div>
+                    <div class="company">
+                        <a href="https://www.linkedin.com/company/kyure/" target="_blank">Kyure Health ↗️</a>
+                    </div>
+                    <div class="location">Pune, Maharashtra, India</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Experience Section END -->
+
+    <!-- Community Section START -->
+    <!-- <section id="community">
+        <div class="h1 text-center" data-aos="zoom-in-up"><i class="fas fa-users"></i> My <b>Community</b></div>
+        <div class="d-flex align-items-center">
+            <ul class="list-group p-3 mx-auto" style="width: fit-content;" data-aos="zoom-in-down">
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-auto">
+                            <img class="img m-2 pr-2 pl-2"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png" width="78" />
+                        </div>
+                        <div class="col-auto">
+                            <div class="small" style="color: #b7b6bb">08/2021 - PRESENT</div>
+                            <div class="large font-weight-bold font-italic mt-2" style="color: #FFFFFF;">Category - Android</div>
+                            <div class="large mt-2" style="color: #FFFFFF;"><a class="text-decoration-none"
+                                    href="https://g.dev/shreyaspatil" target="_blank">Google Developer Expert</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-auto">
+                            <img class="img m-2 pr-2 pl-2"
+                                src="https://pbs.twimg.com/profile_images/1361975143610806272/XvJlVRxW_400x400.jpg" width="78" />
+                        </div>
+                        <div class="col-auto">
+                            <div class="small" style="color: #b7b6bb">11/2020 - 07/2022</div>
+                            <div class="large font-weight-bold font-italic mt-2" style="color: #FFFFFF;">Organizer</div>
+                            <div class="large mt-2" style="color: #FFFFFF;"><a class="text-decoration-none"
+                                    href="https://www.meetup.com/Kotlin-Mumbai/" target="_blank">Kotlin User Group: Mumbai</a></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </section> -->
+    <!-- Community Section END -->
+
+    <!-- Education Section START -->
+    <style>
+    .education-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 4rem 1rem;
+        overflow-x: auto;
+    }
+
+    .about-header {
+        text-align: center;
+        margin-bottom: 3rem;
+        position: relative;
+        padding-bottom: 1rem;
+    }
+
+    .about-header::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 3px;
+        background: linear-gradient(90deg, #2563eb, #3b82f6);
+    }
+
+    .education-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 1rem;
+        transition: transform 0.3s ease;
+    }
+
+    .education-item {
+        background: rgba(255, 255, 255, 0.05);
+        border: 2px solid rgba(255, 255, 255, 0.337);
+        border-radius: 12px;
+        padding: 2rem;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        width: 350px;
+    }
+
+    .education-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .duration {
+        color: #b7b6bb;
+        font-size: 0.875rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .institution {
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin: 0.75rem 0;
+    }
+
+    .location {
+        color: #b7b6bb;
+        font-size: 0.875rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .degree {
+        color: #7b7a7f;
+        font-weight: 300;
+        margin-top: 0.75rem;
+    }
+
+    @media (max-width: 780px) {
+        .education-container {
+            padding: 2rem 0.5rem;
+        }
+
+        .education-list {
+            flex-direction: column;
+            gap: 2rem;
+        }
+        
+        .education-item {
+            width: 300px;
+            padding: 1.5rem;
+        }
+    }
+
+    /* Custom scrollbar styles */
+    .education-container::-webkit-scrollbar {
+        height: 12px;
+    }
+
+    .education-container::-webkit-scrollbar-thumb {
+        background-color: #000000;
+        border-radius: 10px;
+    }
+
+    .education-container::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.1);
+    }
+    </style>
+
+<section class="education-container" id="education">
+    <div class="h1 text-center" data-aos="zoom-in-up">
+        <h1 class="about-header">My Education</h1>
+    </div>
+    
+    <div class="education-list" data-aos="fade-up">
+        <div class="education-item">
+            <div class="duration">2022 - 2026</div>
+            <div class="institution">Vellore Institute of Technology, Vellore Campus</div>
+            <div class="location">Vellore, Tamil Nadu, India</div>
+            <div class="degree">B.Tech. Computer Science with Bioinformatics</div>
+        </div>
+
+        <div class="education-item">
+            <div class="duration">2022</div>
+            <div class="institution">Computer Software College (CSC)</div>
+            <div class="location">Chennai, Tamil Nadu, India</div>
+            <div class="degree">Diploma in Computer Programming</div>
+        </div>
+        
+        <div class="education-item">
+            <div class="duration">2020-2022</div>
+            <div class="institution">Alpha Matriculation Hr. Sec. School</div>
+            <div class="location">Chennai, Tamil Nadu, India</div>
+            <div class="degree">Higher Secondary - Science and Mathematics</div>
+        </div>
+    </div>
+</section>
+
+    <!-- Education Section END -->
+
+    <!-- Skills Section START -->
+    <style>
+        .skills-container {
+            max-width: 900px;
+            margin: 25px auto;
+            padding: 2rem 1rem;
+            overflow: hidden;
+        }
+        
+        .skills-group {
+            margin: 2rem 0;
+        }
+        
+        .skills-title {
+            color: #fff;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        
+        .marquee {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            --gap: 1rem;
+            --duration: 60s;
+            --direction: normal;
+            display: flex;
+            user-select: none;
+        }
+        
+        .marquee__content {
+            flex-shrink: 0;
+            display: flex;
+            justify-content: space-around;
+            gap: var(--gap);
+            min-width: 100%;
+            animation: scroll var(--duration) linear infinite var(--direction);
+        }
+        
+        .marquee_not_content {
+            flex-shrink: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            min-width: 100%;
+        }
+        
+        .skill-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            transition: transform 0.5s ease, background 0.5s ease;
+            min-width: 120px;
+        }
+        
+        .skill-item:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .skill-item i {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .skill-item .title {
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: #fff;
+            text-align: center;
+        }
+        
+        @keyframes scroll {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(calc(-100% - var(--gap)));
+            }
+        }
+        
+        .marquee--reverse .marquee__content {
+            --direction: reverse;
+            --duration: 120s;
+        }
+        
+        .marquee:hover .marquee__content {
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+<body>
+    <section class="skills-container" id="skills">
+        <div class="h1 text-center" data-aos="zoom-in-up">
+            <div class="about-header" style="padding-top: 30px;">
+                My <b>Skills</b>
+            </div>
+        </div>
+    
+        <div class="skills-group" data-aos="fade-up">
+            <div class="skills-title">Programming Languages</div>
+            <div class="marquee">
+                <div class="marquee__content">
+                    <!-- Content repeated twice for seamless loop -->
+                    <div class="skill-item" style="color: #e43e00">
+                        <i class="fab fa-java"></i>
+                        <div class="title">Java</div>
+                    </div>
+                    <div class="skill-item" style="color: #cf4237">
+                        <i class="fas fa-code" style="font-size: 30px; margin: 25px 0"></i>
+                        <div class="title">C / C++</div>
+                    </div>
+                    <div class="skill-item" style="color: #b2b200">
+                        <i class="fab fa-js-square " style="font-size: 30px;"></i>
+                        <div class="title">JavaScript</div>
+                    </div>
+                    <div class="skill-item" style="color: #cf5b1e">
+                        <i class="fab fa-html5 " style="font-size: 30px"></i>
+                        <div class="title">HTML</div>
+                    </div>
+                    <div class="skill-item" style="color: #559cc4">
+                        <i class="fab fa-css3 " style="font-size: 30px"></i>
+                        <div class="title">CSS</div>
+                    </div>
+                    <div class="skill-item" style="color: #f3c623">
+                        <i class="fab fa-python" style="font-size: 30px"></i>
+                        <div class="title">Python</div>
+                    </div>
+                    <div class="skill-item" style="color: #597fb2; margin-right: 5px">
+                        <i class="fab fa-r-project" style="font-size: 30px; margin-left: -5px"></i>
+                        <div class="title">R</div>
+                    </div>
+                    <!-- Repeat for other language skills -->
+                </div>
+                <div class="marquee__content" aria-hidden="true">
+                    <div class="skill-item" style="color: #e43e00">
+                        <i class="fab fa-java"></i>
+                        <div class="title">Java</div>
+                    </div>
+                    <div class="skill-item" style="color: #cf4237">
+                        <i class="fas fa-code" style="font-size: 30px;  margin: 25px 0"></i>
+                        <div class="title">C / C++</div>
+                    </div>
+                    <div class="skill-item" style="color: #b2b200">
+                        <i class="fab fa-js-square " style="font-size: 30px;"></i>
+                        <div class="title">JavaScript</div>
+                    </div>
+                    <div class="skill-item" style="color: #cf5b1e">
+                        <i class="fab fa-html5 " style="font-size: 30px"></i>
+                        <div class="title">HTML</div>
+                    </div>
+                    <div class="skill-item" style="color: #559cc4">
+                        <i class="fab fa-css3 " style="font-size: 30px"></i>
+                        <div class="title">CSS</div>
+                    </div>
+                    <div class="skill-item" style="color: #f3c623">
+                        <i class="fab fa-python" style="font-size: 30px"></i>
+                        <div class="title">Python</div>
+                    </div>
+                    <div class="skill-item" style="color: #597fb2">
+                        <i class="fab fa-r-project" style="font-size: 30px; margin-left: -5px"></i>
+                        <div class="title">R</div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="skills-group" data-aos="fade-up">
+            <div class="skills-title">Libraries / Frameworks</div>
+            <div class="marquee marquee--reverse">
+                <div class="marquee__content">
+                    <!-- Content for frameworks -->
+                    <div class="skill-item" style="color: #e43e00">
+                        <img src="images/icons8-tensorflow.svg" alt="Tensorflow" style="width: 40px; height: 78px;">
+                        <div class="title">Tensorflow</div>
+                    </div>
+                    <div class="skill-item" style="color: #e43e00">
+                        <img src="images/django.svg" alt="Django" style="width: 30px; height: 75px;">
+                        <div class="title">Django</div>
+                    </div>
+                    <div class="skill-item" style="color: #e43e00">
+                        <img src="images/flask.png" alt="Flask" style="width: 40px; height: 45px; margin-top: 10px">
+                        <div class="title"  style="margin-top: 20px">Flask</div>
+                    </div>
+                    <div class="skill-item" style="color: #e43e00">
+                        <img src="images/OpenCV.svg" alt="Opencv" style="width: 40px; height: 75px;">
+                        <div class="title">OpenCV</div>
+                    </div>
+                    <div class="skill-item" style="color: #e43e00">
+                        <i class="fab fa-node-js"></i>
+                        <div class="title" style="margin-top: -5px;">Node.js</div>
+                    </div>
+                    <div class="skill-item" style="color: #6fc3ff;  margin-right: 15px">
+                        <i class="fab fa-react"></i>
+                        <div class="title">ReactJS</div>
+                    </div>
+                </div>
+                <div class="marquee__content" aria-hidden="true">
+                    <!-- Duplicate content -->
+                    <div class="skill-item" style="color: #e43e00">
+                        <img src="images/icons8-tensorflow.svg" alt="Tensorflow" style="width: 40px; height: 78px;">
+                        <div class="title">Tensorflow</div>
+                    </div>
+                    <div class="skill-item" style="color: #e43e00">
+                        <img src="images/django.svg" alt="Django" style="width: 30px; height: 75px;">
+                        <div class="title">Django</div>
+                    </div>
+                    <div class="skill-item" style="color: #e43e00">
+                        <img src="images/flask.png" alt="Flask" style="width: 40px; height: 45px; margin-top: 10px">
+                        <div class="title"  style="margin-top: 20px">Flask</div>
+                    </div>
+                    <div class="skill-item" style="color: #e43e00">
+                        <img src="images/OpenCV.svg" alt="Opencv" style="width: 40px; height: 75px;">
+                        <div class="title">OpenCV</div>
+                    </div>
+                    <div class="skill-item" style="color: #e43e00">
+                        <i class="fab fa-node-js"></i>
+                        <div class="title" style="margin-top: -5px;">Node.js</div>
+                    </div>
+                    <div class="skill-item" style="color: #6fc3ff;  margin-right: 15px">
+                        <i class="fab fa-react"></i>
+                        <div class="title">ReactJS</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="skills-group" data-aos="fade-up">
+            <div class="skills-title">Tools and Technologies</div>
+            <div class="marquee">
+                <div class="marquee__content">
+                    <!-- Content repeated twice for seamless loop -->
+                    <div class="skill-item" style="color: #e43e00">
+                        <i class="fas fa-code-branch" style="height: 50px; margin-top: 20px"></i>
+                        <div class="title">Git</div>
+                    </div>
+                    <div class="skill-item" style="color: #ffffff">
+                        <i class="fab fa-github" style="font-size: 30px"></i>
+                        <div class="title">GitHub</div>
+                    </div>
+                    <div class="skill-item" style="color: #b2b200">
+                        <img src="images/Visual Studio Code (VS Code).svg" alt="VSCode" style="width: 40px; height: 38px; margin: 20px 0">
+                        <div class="title">VSCode</div>
+                    </div>
+                    <div class="skill-item" style="color: #cf5b1e">
+                        <i class="fab fa-aws" style="font-size: 30px; margin-left: -10px"></i>
+                        <div class="title">AWS</div>
+                    </div>
+                    <div class="skill-item" style="color: #559cc4">
+                        <img src="images/icons8-google-colab.svg" alt="Google colab" style="width: 40px; height: 40px; margin: 18px 0">
+                        <div class="title">Colab</div>
+                    </div>
+                    <div class="skill-item" style="color: #bebebe;">
+                        <i class="fab fa-figma" style="font-size: 30px"></i>
+                        <div class="title">Figma</div>
+                    </div>
+                    
+                    <!-- Repeat for other language skills -->
+                </div>
+                <div class="marquee__content" aria-hidden="true">
+                    <div class="skill-item" style="color: #e43e00">
+                        <i class="fas fa-code-branch" style="height: 50px; margin-top: 20px"></i>
+                        <div class="title">Git</div>
+                    </div>
+                    <div class="skill-item" style="color: #ffffff">
+                        <i class="fab fa-github" style="font-size: 30px"></i>
+                        <div class="title">GitHub</div>
+                    </div>
+                    <div class="skill-item" style="color: #b2b200">
+                        <img src="images/Visual Studio Code (VS Code).svg" alt="VSCode" style="width: 40px; height: 38px; margin: 20px 0">
+                        <div class="title">VSCode</div>
+                    </div>
+                    <div class="skill-item" style="color: #cf5b1e">
+                        <i class="fab fa-aws" style="font-size: 30px; margin-left: -10px"></i>
+                        <div class="title">AWS</div>
+                    </div>
+                    <div class="skill-item" style="color: #559cc4">
+                        <img src="images/icons8-google-colab.svg" alt="Google colab" style="width: 40px; height: 40px; margin: 18px 0">
+                        <div class="title">Colab</div>
+                    </div>
+                    <div class="skill-item" style="color: #bebebe;">
+                        <i class="fab fa-figma" style="font-size: 30px"></i>
+                        <div class="title">Figma</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="skills-group" data-aos="fade-up">
+            <div class="skills-title">Databases</div>
+            <div class="">
+                <div class="marquee_not_content">
+                    <!-- Content repeated twice for seamless loop -->
+                    <div class="skill-item" style="color: #e43e00">
+                        <img src="images/SQLite.svg" alt="SQLite" style="width: 40px; height: 40px; margin: 20px 0">
+                        <div class="title">SQLite</div>
+                    </div>
+                    <div class="skill-item" style="color: #cf4237">
+                        <img src="images/PostgresSQL.svg" alt="SQLite" style="width: 40px; height: 40px; margin: 20px 0">
+                        <div class="title">PostgreSQL</div>
+                    </div>
+                    <div class="skill-item" style="color: #b2b200">
+                        <img src="images/MongoDB.svg" alt="SQLite" style="width: 40px; height: 40px; margin: 20px 0">
+                        <div class="title">MongoDB</div>
+                    </div>
+                    
+                    <!-- Repeat for other language skills -->
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-group" data-aos="fade-up">
+            <div class="skills-title">Bioinformatics</div>
+            <div class="">
+                <div class="marquee_not_content" style="display: flex; flex-wrap: wrap">
+                    <!-- Content repeated twice for seamless loop -->
+                    <div class="skill-item" style="color: #e43e00">
+                        <img src="Images/meme.png" alt="MEME" style="width: 75px; height: 25px; margin: 28px 0">
+                        <div class="title">MEME</div>
+                    </div>
+                    <div class="skill-item" style="color: #cf4237">
+                        <img src="images/spades.png" alt="Spades" style="width: 40px; height: 38px; margin: 22px 0">
+                        <div class="title">SPAdes</div>
+                    </div>
+                    <div class="skill-item" style="color: #b2b200">
+                        <img src="images/blast.png" alt="BLAST" style="width: 65px; height: 38px; margin: 22px 0">
+                        <div class="title">BLAST</div>
+                    </div>
+                    <div class="skill-item" style="color: #b2b200">
+                        <img src="images/ncbi.png" alt="NCBI" style="width: 65px; height: 38px; margin: 22px 0">
+                        <div class="title">NCBI</div>
+                    </div>
+                    <!-- Repeat for other language skills -->
+                </div>
+            </div>
+            <br>
+            <div class="">
+                <div class="marquee_not_content" style="display: flex; flex-wrap: wrap">
+                    <!-- Content repeated twice for seamless loop -->
+                    <div class="skill-item" style="color: #b2b200">
+                        <img src="images/clustal.png" alt="Clustal" style="width: 40px; height: 40px; margin: 20px 0">
+                        <div class="title">EMBOSS</div>
+                    </div>
+                    <div class="skill-item" style="color: #b2b200">
+                        <img src="images/uniprot.png" alt="Uniprot" style="width: 40px; height: 40px; margin: 20px 0">
+                        <div class="title">Uniprot</div>
+                    </div>
+                    <div class="skill-item" style="color: #b2b200">
+                        <img src="images/hmmer.png" alt="HMMER" style="width: 50px; height: 50px; margin: 15px 0">
+                        <div class="title">HMMER</div>
+                    </div>
+                    <div class="skill-item" style="color: #b2b200">
+                        <img src="images/emboss.jpg" alt="Emboss" style="width: 75px; height: 30px; margin: 25px 0">
+                        <div class="title">EMBOSS</div>
+                    </div>
+                    
+                    <!-- Repeat for other language skills -->
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <script>
+        
+        document.querySelectorAll('.marquee__content').forEach(content => {
+            const items = Array.from(content.children);
+            const cloneCount = 2; // Number of times to clone the items
+            
+            for (let i = 0; i < cloneCount; i++) {
+                items.forEach(item => {
+                    const clone = item.cloneNode(true);
+                    content.appendChild(clone);
+                });
+            }
+        });
+        
+        document.querySelectorAll('.marquee--reverse .marquee__content').forEach(content => {
+            const items = Array.from(content.children);
+            const cloneCount = 2; // Number of times to clone the items
+            
+            for (let i = 0; i < cloneCount; i++) {
+                items.forEach(item => {
+                    const clone = item.cloneNode(true);
+                    content.appendChild(clone);
+                });
+            }
+        });
+    </script>
+    <!-- Skills Section END -->
+
+<style>
+.work-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+}
+
+.work-nav-container {
+    max-width: 100%;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.work-nav-pills {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 12px;
+}
+
+.work-nav-link {
+    padding: 1rem 2rem;
+    color: #b7b6bb;
+    background: transparent;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.work-nav-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #2563eb, #3a6bff);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+}
+
+.work-nav-link:hover {
+    color: white;
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+.work-nav-link:hover::before {
+    opacity: 0.1;
+}
+
+.work-nav-link.active {
+    color: white;
+    background: linear-gradient(90deg, #2563eb, #3a6bff);
+    border: none;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+@media (max-width: 768px) {
+    .work-nav-pills {
+        flex-wrap: wrap;
+    }
+    
+    .work-nav-link {
+        flex: 1 1 calc(50% - 0.5rem);
+        padding: 0.75rem 1rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .work-nav-link {
+        flex: 1 1 100%;
+    }
+}
+</style>
+
+<section class="work-container" id="myWork">
+    <div class="h1 text-center" data-aos="zoom-in-up">
+        <div class="about-header">
+            My <b>Work</b>
+        </div>
+    </div>
+    
+    <nav class="work-nav-container">
+        <div class="nav work-nav-pills" id="nav-tab" role="tablist">
+            <a class="work-nav-link active" id="nav-os-tab" data-toggle="tab" href="#nav-os" role="tab" aria-controls="nav-os" aria-selected="true">
+                Data Science
+            </a>
+            <a class="work-nav-link" id="nav-apps-tab" data-toggle="tab" href="#nav-apps" role="tab" aria-controls="nav-apps" aria-selected="false">
+                Web Dev
+            </a>
+            <a class="work-nav-link" id="nav-articles-tab" data-toggle="tab" href="#nav-articles" role="tab" aria-controls="nav-articles" aria-selected="false">
+                Automation / Bioinformatics
+            </a>
+            <a class="work-nav-link" id="nav-osc-tab" data-toggle="tab" href="#nav-osc" role="tab" aria-controls="nav-osc" aria-selected="false">
+                Open Source Contributions
+            </a>
+        </div>
+    </nav>
+
+    
+    <div class="tab-content" id="nav-tabContent" data-aos="zoom-in-down">
+            <div class="tab-pane fade" id="nav-apps" role="tabpanel" aria-labelledby="nav-apps-tab">
+                <!-- START APPS -->
+                <style>
+                    .apps-container {
+                      padding: 2rem;
+                      background-color: #000;
+                      color: #fff;
+                    }
+                    
+                    .apps-grid {
+                      display: grid;
+                      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                      gap: 2rem;
+                      max-width: 1200px;
+                      margin: 0 auto;
+                    }
+                    
+                    .app-card {
+                      background: linear-gradient(145deg, #0a0a0a 0%, #1a1a1a 100%);
+                      border-radius: 15px;
+                      overflow: hidden;
+                      transition: transform 0.3s ease, box-shadow 0.3s ease;
+                      border: 2px solid #ffffff53;
+                    }
+                    
+                    .app-card:hover {
+                      transform: translateY(-10px);
+                      box-shadow: 0 10px 20px rgba(30, 58, 138, 0.3);
+                    }
+                    
+                    .app-image {
+                      width: 100%;
+                      height: 200px;
+                      object-fit: cover;
+                      border-bottom: 1px solid #ffffff;
+                    }
+                    
+                    .app-content {
+                      padding: 1.5rem;
+                    }
+                    
+                    .app-title {
+                      color: #fff;
+                      font-size: 1.5rem;
+                      font-weight: 700;
+                      margin-bottom: 1rem;
+                    }
+                    
+                    .app-description {
+                      color: #94a3b8;
+                      font-size: 0.95rem;
+                      line-height: 1.6;
+                      margin-bottom: 1.5rem;
+                    }
+                    
+                    .app-link {
+                      display: inline-block;
+                      padding: 0.75rem 1.5rem;
+                      background-color: transparent;
+                      color: #3a6bff;
+                      border: 2px solid #3a6bff;
+                      border-radius: 8px;
+                      text-decoration: none;
+                      font-weight: 600;
+                      transition: all 0.3s ease;
+                    }
+                    
+                    .app-link:hover {
+                      background-color: #3a6bff;
+                      color: #fff;
+                      transform: translateY(-2px);
+                      text-decoration: none;
+                    }
+                    
+                    .install-count {
+                      display: inline-block;
+                      padding: 0.25rem 0.75rem;
+                      background-color: #1d4ed8;
+                      color: #fff;
+                      border-radius: 999px;
+                      font-size: 0.875rem;
+                      margin-bottom: 1rem;
+                    }
+
+                    .app-content .activity-tag {
+                        font-size: 14px;
+                    }
+
+                    @media (max-width: 768px) {
+                      .apps-grid {
+                        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                      }
+
+                      .apps-container {
+                        padding: 1rem;
+                        margin: auto 0;
+                      }
+                    }
+                  </style>
+                
+                  <div class="apps-container">
+                    <div class="apps-grid">
+
+                        <div class="app-card">
+                            <img class="app-image" src="Images/Apps/aavin_app.png" alt="Aavin-app">
+                            <div class="app-content">
+                              <h5 class="app-title">Aavin-app</h5>
+                              <div class="activity-tag">React + Vite</div>
+                              <div class="activity-tag">Drizzle</div>
+                              <div class="activity-tag">PostgreSQL</div>
+                              <div class="activity-tag">E-commerce</div>
+                              <div class="activity-tag">FinflowTech</div>
+                              <p class="app-description">Aavin Application - A web application to centralize the collection and distribution of goods among milk suppliers and milk vendors.</p>
+                              <a href="https://aavin-app.onrender.com/" target="_blank" class="app-link">View site</a>
+                            </div>
+                        </div>
+
+                        <div class="app-card">
+                            <img class="app-image" src="Images/Apps/hackoff.png" alt="Hackoff">
+                            <div class="app-content">
+                              <h5 class="app-title">Hackoffv4 portal</h5>
+                              <div class="activity-tag">NextJS</div>
+                              <div class="activity-tag">MongoDB</div>
+                              <div class="activity-tag">Vercel</div>
+                              <div class="activity-tag">Hackathon</div>
+                              <div class="activity-tag">IET-VIT</div>
+                              <p class="app-description">Web portal for participant registrations and submissions in "Sociovate", an ideathon conducted by IET-VIT in collaboration with IxDA-VIT as a part of Yantra week at VIT University, Vellore.</p>
+                              <a href="https://hackoff.ietvit.co/" target="_blank" class="app-link">View site</a>
+                            </div>
+                        </div>
+
+                        
+                      <div class="app-card">
+                        <img class="app-image" src="Images/Apps/vedassist.png" alt="Vedassist">
+                        <div class="app-content">
+                          <h5 class="app-title">Vedassist</h5>
+                          <div class="activity-tag">ReactJS</div>
+                          <div class="activity-tag">Django</div>
+                          <div class="activity-tag">PostgreSQL</div>
+                          <div class="activity-tag">Random Forest</div>
+                          <div class="activity-tag">E-commerce</div>
+                          <p class="app-description">This is a web portal that suggests Ayurvedic medicine based on his/her symptoms using an AI model, provides details about the cure and also lets users shop for the same.</p>
+                          <a href="https://www.vedassist.us/" target="_blank" class="app-link">View site</a>
+                        </div>
+                      </div>
+
+                    
+                    <div class="app-card">
+                        <img class="app-image" src="Images/Apps/sociovate.png" alt="Sociovate">
+                        <div class="app-content">
+                          <h5 class="app-title">Sociovate portal</h5>
+                          <div class="activity-tag">Django</div>
+                          <div class="activity-tag">PostgreSQL</div>
+                          <div class="activity-tag">IET-VIT</div>
+                          <p class="app-description">Web portal for participant registrations and submissions in "Sociovate", an ideathon conducted by IET-VIT in collaboration with IxDA-VIT as a part of Yantra week at VIT University, Vellore.</p>
+                          <a href="https://www.sociovate.co/" target="_blank" class="app-link">View site</a>
+                        </div>
+                      </div>
+                      
+                      <div class="app-card">
+                        <img class="app-image" src="Images/Apps/relay_coding.png" alt="Relay Coding">
+                        <div class="app-content">
+                          <h5 class="app-title">Relay Coding portal</h5>
+                          <div class="activity-tag">Django</div>
+                          <div class="activity-tag">PostgreSQL</div>
+                          <div class="activity-tag">IET-VIT</div>
+                          <p class="app-description">Web portal for 'RelayCoding' competition conducted by IET-VIT during Gravitas'23 at VIT University, Vellore, India. This portal is designed to handle registrations, team formation and project submissions.</p>
+                          <a href="https://relay-coding.vercel.app" target="_blank" class="app-link">View site</a>
+                        </div>
+                      </div>
+
+                      <div class="app-card">
+                        <img class="app-image" src="Images/Apps/vetconnect.png" alt="VetConnect">
+                        <div class="app-content">
+                          <h5 class="app-title">VetConnect</h5>
+                          <div class="activity-tag">Flask</div>
+                          <div class="activity-tag">SQLite</div>
+                          <div class="activity-tag">HTML/CSS</div>
+                          <p class="app-description">A fully functional web application to promote veterinary healthcare and pet health in India and to increase public awareness about the importance of animal health.</p>
+                          <a href="https://vetconnect.pythonanywhere.com/" target="_blank" class="app-link">View site</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <!-- END APPS -->
+            </div>
+            
+            <div class="tab-pane fade show active" id="nav-os" role="tabpanel" aria-labelledby="nav-os-tab">
+
+                <!-- START Open Source -->
+                <div class="apps-container">
+                    <div class="apps-grid">
+
+                        <!-- <div class="app-card">
+                          <img class="app-image" src="Images/OpenSource/flower_recogniser.png" alt="Flower Recogniser">
+                          <div class="app-content">
+                            <h5 class="app-title">Flower recogniser</h5>
+                            <div class="activity-tag">Python</div>
+                            <div class="activity-tag">Transfer learning</div>
+                            <div class="activity-tag">Streamlit</div>
+                            <p class="app-description">A neural network model using tensorflow to recognize images of flowers and classify them as - daisy / dandelion / rose / sunflower / tulip.</p>
+                            <a href="https://github.com/vijay-varadarajan/Flower-recogniser" target="_blank" class="app-link">View Project</a>
+                          </div>
+                        </div> -->
+                        
+                        <div class="app-card">
+                          <img class="app-image" src="Images/OpenSource/geospatial.png" alt="Flower Recogniser">
+                          <div class="app-content">
+                            <h5 class="app-title">Geospatial Analysis</h5>
+                            <div class="activity-tag">Python</div>
+                            <div class="activity-tag">Geopandas</div>
+                            <div class="activity-tag">Gadm</div>
+                            <div class="activity-tag">OSM api</div>
+                            <div class="activity-tag">Folium</div>
+                            <p class="app-description">Leveraging geospatial and population data, this project analyzes healthcare accessibility across major locations in all states of India.</p>
+                            <a href="https://github.com/vijay-varadarajan/Geospatial-Analysis/blob/main/IndiaGeoAnalysis.ipynb" target="_blank" class="app-link">View Project</a>
+                          </div>
+                        </div>
 
 
+                        <div class="app-card">
+                            <img class="app-image" src="Images/Apps/vedassist.png" alt="Vedassist">
+                            <div class="app-content">
+                              <h5 class="app-title">Vedassist</h5>
+                              <div class="activity-tag">Prediction</div>
+                              <div class="activity-tag">Django</div>
+                              <div class="activity-tag">PostgreSQL</div>
+                              <div class="activity-tag">Random Forest</div>
+                              <div class="activity-tag">E-commerce</div>
+                              <p class="app-description">This is a web portal that suggests Ayurvedic medicine based on his/her symptoms using an AI model, provides details about the cure and also lets users shop for the same.</p>
+                              <a href="https://www.vedassist.us/" target="_blank" class="app-link">View site</a>
+                            </div>
+                          </div>
+
+                        <div class="app-card">
+                            <img class="app-image" src="Images/OpenSource/gesture_controls.png" alt="Gesture Controls">
+                            <div class="app-content">
+                            <h5 class="app-title">Gesture Controls</h5>
+                            <div class="activity-tag">Python</div>
+                            <div class="activity-tag">OpenCV</div>
+                            <div class="activity-tag">Mediapipe</div>
+                            <p class="app-description">Gesture Controls makes human-computer interaction simple by utilizing Hand Gestures. All operations can be virtually controlled using static and dynamic hand gestures.</p>
+                            <a href="https://github.com/vijay-varadarajan/Gesture-Controls" target="_blank" class="app-link">View Project</a>
+                            </div>
+                        </div>
+
+                        <div class="app-card">
+                          <img class="app-image" src="Images/OpenSource/flower_recogniser.png" alt="Flower Recogniser">
+                          <div class="app-content">
+                            <h5 class="app-title">Flower recogniser</h5>
+                            <div class="activity-tag">Python</div>
+                            <div class="activity-tag">Transfer learning</div>
+                            <div class="activity-tag">Streamlit</div>
+                            <p class="app-description">A neural network model using tensorflow to recognize images of flowers and classify them as - daisy / dandelion / rose / sunflower / tulip.</p>
+                            <a href="https://github.com/vijay-varadarajan/Flower-recogniser" target="_blank" class="app-link">View Project</a>
+                          </div>
+                        </div>
+                  
+                      <div class="app-card">
+                        <img class="app-image" src="Images/OpenSource/heart_failure.png" alt="Heart Failure Predictor">
+                        <div class="app-content">
+                          <h5 class="app-title">Heart Failure Predictor</h5>
+                          <div class="activity-tag">Python</div>
+                          <div class="activity-tag">SVM</div>
+                          <div class="activity-tag">Streamlit</div>
+                          <p class="app-description">A simple ML model that predicts the risk of heart failure of a person, given his/her medical data, with 86% accuracy.</p>
+                          <a href="https://heart-failure-risk-predictor.streamlit.app/" target="_blank" class="app-link">View App</a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    </div>    
+                </div>
+                
+
+                <div class="tab-pane fade" id="nav-osc" role="tabpanel" aria-labelledby="nav-osc-tab">
+                    <!-- START OSC -->
+                    <div class="apps-container">
+                        <div class="apps-grid">
+                          <!-- C Programming Course Card -->
+                          <div class="app-card">
+                            <img class="app-image" src="Images/Web/urlactions.png" alt="URLActions">
+                            <div class="app-content">
+                              <h5 class="app-title">URL Actions</h5>
+                              <div class="activity-tag">GO</div>
+                              <div class="activity-tag">Command Line</div>
+                              <div class="activity-tag">URL</div>
+                              <p class="app-description">A simple command line tool to perform actions such as check validity, shorten and generate QR code for URLs. Written in GO.</p>
+                              <a href="https://github.com/vijay-varadarajan/URLActions/releases/tag/v1" target="_blank" class="app-link">View Project</a>
+                            </div>
+                          </div>
+                    
+                          <!-- PU Alerts Card -->
+                          <div class="app-card">
+                            <img class="app-image" src="Images/Web/Pirates_of_the_keribbean.png" alt="Pirates of the Keribbean">
+                            <div class="app-content">
+                              <h5 class="app-title">Pirates of the Keribbean</h5>
+                              <div class="activity-tag">Documentation</div>
+                              <div class="activity-tag">Translation</div>
+                              
+                              <p class="app-description">Where there is space there are space pirates. This part addon contains twenty (20) parts and three (3) unique IVA's, all with pirate aesthetics. For Kerbal Space Program.</p>
+                              <a href="https://github.com/zer0Kerbal/PiratesoftheKeribbean/releases/tag/0.9.99.1-prerelease" target="_blank" class="app-link">View Project</a>
+                            </div>
+                          </div>
+
+                          <div class="app-card">
+                            <img class="app-image" src="Images/Web/proton.png" alt="Proton">
+                            <div class="app-content">
+                              <h5 class="app-title">Proton</h5>
+                              <div class="activity-tag">Documentation</div>
+                              <div class="activity-tag">Translation</div>
+                              
+                              <p class="app-description">Soviet Протон (Proton) expendable launch system for Kerbal Space Program.</p>
+                              <a href="https://github.com/zer0Kerbal/Proton/releases/tag/3.9.99.3-prerelease" target="_blank" class="app-link">View Project</a>
+                            </div>
+                          </div>
+                    
+                          <!-- Diploma Alerts Card -->
+                          <div class="app-card">
+                            <img class="app-image" src="Images/Web/online_car_booking.png" alt="Online car booking">
+                            <div class="app-content">
+                              <h5 class="app-title">Online Car Booking</h5>
+                              <div class="activity-tag">Documentation</div>
+                              <div class="activity-tag">README</div>
+                              <div class="activity-tag">Technical Writing</div>
+                              <p class="app-description">Write complete README file for a sample online car booking website made with HTML / CSS.</p>
+                              <a href="https://github.com/ayaan-qadri/OnlineCarBooking/pull/4" target="_blank" class="app-link">View Project</a>
+                            </div>
+                          </div>
+
+                          <div class="app-card">
+                            <img class="app-image" src="Images/Web/tree2hope.png" alt="Tree 2 hope">
+                            <div class="app-content">
+                              <h5 class="app-title">Tree 2 Hope</h5>
+                              <div class="activity-tag">Documentation</div>
+                              <div class="activity-tag">README</div>
+                              <p class="app-description">Clicking on the profile pictures takes the viewer to the profile of the contributor. Tree2Hope is a website dedicated to promoting the planting of trees as a means of restoring our planet's natural balance.</p>
+                              <a href="https://github.com/Virtual4087/Tree2Hope/pull/35" target="_blank" class="app-link">View Project</a>
+                            </div>
+                          </div>
+
+                        </div>
+                        </div>
+                    <!-- END OSC -->
+                </div>
+                
+                <div class="tab-pane fade" id="nav-articles" role="tabpanel" aria-labelledby="nav-articles-tab">
+                <!-- START Articles -->
+                <div class="apps-container">
+                    <div class="apps-grid">
+
+                        <!-- <div class="app-card">  
+                          <div class="app-content">
+                            <h5 class="app-title">Diploma Alerts</h5>
+                            <div class="activity-tag">45K installs</div>
+                            <p class="app-description">App developed for MSBTE board students to get in touch with all news and updates regarding Exam, Syllabus, timetable, Hall tickets, etc.</p>
+                            <a href="https://play.google.com/store/apps/details?id=com.spdroid.diploma&hl=en" target="_blank" class="app-link">View App</a>
+                          </div>
+                        </div> -->
+                
+                        <div class="app-card">
+                          <div class="app-content">
+                            <h5 class="app-title">Docking Pipeline</h5>
+                            <div class="activity-tag">Pipeling</div>
+                            <div class="activity-tag">docking</div>
+                            <div class="activity-tag">CLI</div>
+                            <p class="app-description">Automated pipeline for simulating protein - ligand docking using containerized GNINA CLI software</p>
+                            <a href="https://github.com/vijay-varadarajan/Docking-pipeline" target="_blank" class="app-link">View Project</a>
+                          </div>
+                        </div>
+                  
+                        <div class="app-card">
+                        <div class="app-content">
+                          <h5 class="app-title">SwissParam CLI</h5>
+                          <div class="activity-tag">Command line</div>
+                          <div class="activity-tag">Parameterization</div>
+                          <p class="app-description">A command-line utility for parameterizing small molecules using the SwissParam web service.</p>
+                          <a href="https://github.com/vijay-varadarajan/SwissParam-CLI" target="_blank" class="app-link">View Project</a>
+                        </div>
+                      </div>
+                
+                      
+                    </div>
+                </div>
+                <!-- END Articles -->
+            </div>
+        </div>
+
+        <div class="text-center m-2">See all projects on <a href="https://github.com/vijay-varadarajan" target="_blank">my GitHub</a></div>
+    </section>
+    <!-- My Work Section END -->
+
+    <!-- Activities Section START -->
+    <section id="activities" style="margin-top: 0px;">
+        <div class="h1 text-center" data-aos="zoom-in-up">
+            <div class="about-header">
+                Activities / Highlights
+            </div>
+        </div>
+        <style>
+            .activities-section {
+                padding: 3rem 4rem;
+                background-color: #000;
+                color: #fff;
+                min-height: 80vh;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+            }
+        
+            .activities-grid {
+                max-width: 1400px;
+                width: 100%;
+                margin: 0 auto;
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                gap: 1.5rem;
+                justify-content: center;
+                grid-auto-rows: auto; /* Changed from min-content */
+                align-items: start; /* Added to prevent height matching */
+            }
+        
+            .activities-container {
+                width: 100%;
+                max-width: 1400px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+            }
+        
+            .activity-card {
+                background: linear-gradient(145deg, #0a0a0a 0%, #1a1a1a 100%);
+                border-radius: 15px;
+                overflow: hidden;
+                transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+                border: 1px solid rgba(30, 58, 138, 0.3);
+                position: relative;
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                height: fit-content; /* Added to ensure card only takes needed height */
+            }
+        
+            .activity-card:hover {
+                transform: translateY(-8px);
+                border-color: #3a6bff;
+                box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2);
+            }
+        
+            .activity-content {
+                padding: 1.5rem;
+                display: flex;
+                flex-direction: column;
+                height: auto; /* Changed from 100% */
+            }
 
 
+            .activity-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+    
+            .activity-header-content {
+                flex-grow: 1;
+            }
+    
+            .activity-toggle {
+                background: none;
+                border: none;
+                color: #3a6bff;
+                cursor: pointer;
+                font-size: 1.5rem;
+                padding: 0;
+                transition: transform 0.3s ease;
+                min-width: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                outline: none!important;
+            }
+    
+            .activity-toggle.expanded {
+                transform: rotate(180deg);
+                border: none;
+                outline: none!important;
+            }
+    
+            .activity-body {
+                height: 0;
+                overflow: hidden;
+                transition: height 0.3s ease-out, opacity 0.3s ease-out;
+                opacity: 0;
+            }
+    
+            .activity-body.expanded {
+                height: auto;
+                opacity: 1;
+            }
+    
+            .activity-icon {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+                color: #3a6bff;
+            }
+    
+            .activity-title {
+                font-size: 1.5rem;
+                font-weight: 700;
+                margin-bottom: 1rem;
+                background: linear-gradient(90deg, #fff, #3a6bff);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+    
+            .activity-description {
+                color: #94a3b8;
+                font-size: 0.95rem;
+                line-height: 1.6;
+                margin: 1.5rem 0;
+            }
+    
+            .activity-meta {
+                font-size: 0.875rem;
+                color: #64748b;
+                margin-top: 1rem;
+            }
+    
+            .activity-tag {
+                display: inline-block;
+                padding: 0.25rem 0.75rem;
+                background-color: rgba(59, 130, 246, 0.1);
+                color: #3a6bff;
+                border-radius: 999px;
+                font-size: 0.75rem;
+                margin-right: 0.5rem;
+                margin-bottom: 0.5rem;
+            }
+    
+            /* Width classes */
+            .w-full {
+                grid-column: span 12;
+            }
 
+            .w-large-3 {
+                grid-column: span 8;
+            }
+    
+            .w-large-2 {
+                grid-column: span 6;
+            }
+    
+            .w-large {
+                grid-column: span 5;
+            }
+    
+            .w-medium {
+                grid-column: span 4;
+            }
+    
+            .w-small {
+                grid-column: span 3!important;
+            }
+    
+            .w-tiny {
+                grid-column: span 2;
+            }
+    
+            @media (max-width: 980px) {
+                .activities-section {
+            padding: 0 3rem;
+        }
 
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
+        .activities-grid {
+            grid-template-columns: repeat(6, 1fr);
+            max-width: 700px;
+            align-items: start; /* Added to ensure independent heights */
+        }
+    
+                .w-full {
+                    grid-column: span 6;
+                }
 
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
+                .w-large-3 {
+                    grid-column: span 6;
+                }
+        
+                .w-large-2 {
+                    grid-column: span 6;
+                }
+    
+                .w-large {
+                    grid-column: span 6;
+                }
+    
+                .w-medium {
+                    grid-column: span 3;
+                }
+    
+                .w-small {
+                    grid-column: span 3;
+                }
+    
+                .w-tiny {
+                    grid-column: span 3;
+                }
+            }
+    
+            @media (max-width: 640px) {
+                .activities-section {
+                    padding: 1rem 2rem;
+                }
+    
+                .activities-grid {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+    
+                .w-full,
+                .w-large,
+                .w-large-2,
+                .w-large-3,
+                .w-medium,
+                .w-small,
+                .w-tiny {
+                    grid-column: span 1;
+                }
+            }
 
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            @media (max-width: 480px) {
+                .activities-section {
+                    padding: 1rem 1rem;
+                }
+            }
 
+            @media (max-width: 320px) {
+                .activities-section {
+                    padding: 1rem 0.5rem;
+                }
+            }
+        </style>
+    
+        <div class="activities-section">
+            <div class="activities-container">
+                <div class="activities-grid">
+
+                    <div class="activity-card w-small" data-aos="fade-up">
+                        <div class="activity-content">
+                            <div class="activity-header">
+                                <div class="activity-header-content">
+                                    <div class="activity-icon">📊</div>
+                                    <h3 class="activity-title">GitHub Wrapped</h3>
+                                    <div class="activity-tags">
+                                        <span class="activity-tag">Github</span>
+                                        <span class="activity-tag">2024</span>
+                                    </div>
+                                </div>
+                                <button class="activity-toggle">↓</button>
+                            </div>
+                            <div class="activity-body" style="display: flex; flex-direction: column; align-items: center; justify-content:center">
+                                <p class="activity-description">My 2024 GitHub stats - in Spotify's wrapped fashion</p>
+                                <img src="Images/githubwrapped.png" alt="Hackathon" width="90%">
+                                <div class="activity-meta">December 2024 • Github</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="activity-card w-medium" data-aos="fade-up">
+                        <div class="activity-content">
+                            <div class="activity-header">
+                                <div class="activity-header-content">
+                                    <div class="activity-icon">🎓</div>
+                                    <h3 class="activity-title">Merit Scholarship</h3>
+                                    <div class="activity-tags">
+                                        <span class="activity-tag">Academics</span>
+                                        <span class="activity-tag">VIT</span>
+                                    </div>
+                                </div>
+                                <button class="activity-toggle">↓</button>
+                            </div>
+                            <div class="activity-body" style="display: flex; flex-direction: column; align-items: center; justify-content:center">
+                                <p class="activity-description">Received the merit scholarship award from my university for achieving the top spot in my branch for the academic year 2023-24.</p>
+                                <img src="Images/merit.jpeg" alt="Hackathon" width="70%">
+                                <div class="activity-meta">April 2024 • VIT University, Vellore Campus</div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="activity-card w-large" data-aos="fade-up">
+                        <div class="activity-content">
+                            <div class="activity-header">
+                                <div class="activity-header-content">
+                                    <div class="activity-icon">🏆</div>
+                                    <h3 class="activity-title">PEC Hacks 2024</h3>
+                                    <div class="activity-tags">
+                                        <span class="activity-tag">Hackathon</span>
+                                        <span class="activity-tag">Track-Winner</span>
+                                    </div>
+                                </div>
+                                <button class="activity-toggle">↓</button>
+                            </div>
+                            <div class="activity-body" style="display: flex; flex-direction: column; align-items: center; justify-content:center">
+                                <p class="activity-description">Team - winner of the Best Application of Taipy - track prize at PEC Hacks 2024. Developed a query portal to help citizens report civic issues directly to authorities and ML solutions for various aspects of disaster recovery.</p>
+                                </p>
+                                <img src="Images/pechacks.jpg" alt="Hackathon" width="90%">
+                                <div class="activity-meta">January 2024 • PEC, Chennai</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="activity-card w-large" data-aos="fade-up">
+                        <div class="activity-content">
+                            <div class="activity-header">
+                                <div class="activity-header-content">
+                                    <div class="activity-icon">🏆</div>
+                                    <h3 class="activity-title">Summer Program</h3>
+                                    <div class="activity-tags">
+                                        <span class="activity-tag">IET-VIT</span>
+                                        <span class="activity-tag">TFD</span>
+                                        <span class="activity-tag">Collaboration</span>
+                                    </div>
+                                </div>
+                                <button class="activity-toggle">↓</button>
+                            </div>
+                            <div class="activity-body">
+                                <p class="activity-description">A two-month program that brought together teams to develop 8 impactful projects addressing real-world challenges with innovative solutions. Check them out here: <a href="https://sp24.ietvit.co/">sp24.ietvit.co</a></p>
+                                <img src="Images/sp.jpeg" alt="Hackathon" width="100%">
+                                <div class="activity-meta" style="text-align: center;">August 2024 • IET-VIT, Vellore</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="activity-card w-small" data-aos="fade-up">
+                        <div class="activity-content">
+                            <div class="activity-header">
+                                <div class="activity-header-content">
+                                    <div class="activity-icon">💡</div>
+                                    <h3 class="activity-title">Ideathon</h3>
+                                    <div class="activity-tags">
+                                        <span class="activity-tag">IET-VIT</span>
+                                        <span class="activity-tag">Presentation</span>
+                                    </div>
+                                </div>
+                                <button class="activity-toggle">↓</button>
+                            </div>
+                            <div class="activity-body">
+                                <p class="activity-description">Delivered a half-hour presentation on 'Ideation 101,' sharing strategies on how to effectively ideate and build solutions. </p>
+                                <img src="Images/ideathon.jpeg" alt="Ideathon" width="100%">
+                                <div class="activity-meta" style="text-align: center;">2024 • IET-VIT, Vellore</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-card w-medium" data-aos="fade-up">
+                        <div class="activity-content">
+                            <div class="activity-header">
+                                <div class="activity-header-content">
+                                    <div class="activity-icon">🧑‍💻</div>
+                                    <h3 class="activity-title">Tech Lead IET-VIT</h3>
+                                    <div class="activity-tags">
+                                        <span class="activity-tag">IET-VIT</span>
+                                        <span class="activity-tag">Leader</span>
+                                    </div>
+                                </div>
+                                <button class="activity-toggle">↓</button>
+                            </div>
+                            <div class="activity-body">
+                                <p class="activity-description">Selected as Technical Head of <a href="ietvit.co">IET-VIT</a> and Web Development Lead of Team Fourth Dimension.</p>
+                                <img src="./Images/techhead.jpeg" alt="Hackathon" width="100%">
+                                <div class="activity-meta" style="text-align: center;">Jan 2024 • IET-VIT, Vellore</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="activity-card w-medium" data-aos="fade-up">
+                        <div class="activity-content">
+                            <div class="activity-header">
+                                <div class="activity-header-content">
+                                    <div class="activity-icon">💻</div>
+                                    <h3 class="activity-title">Hacktoberfest contributions</h3>
+                                    <div class="activity-tags">
+                                        <span class="activity-tag">Open Source</span>
+                                        <span class="activity-tag">MLH</span>
+                                    </div>
+                                </div>
+                                <button class="activity-toggle">↓</button>
+                            </div>
+                            <div class="activity-body">
+                                <p class="activity-description">Badges earned for contributing to various open source projects and repositories through documentation and code.</p>
+                                <img src="https://holopin.me/vijayvaradarajan" alt="Hackathon" width="100%">
+                                <div class="activity-meta" style="text-align: center;">October 2023 • Hacktoberfest</div>
+                            </div>
+                        </div>
+                    </div>                
+    
+                    <!-- Add more cards as needed -->
+                </div>
+            </div>
+            
+        </div>
+        <div class="text-center m-4">See more on <a href="https://linkedin.com/in/vijay-varadarajan" target="_blank">my LinkedIn</a></div>
+    
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const cards = document.querySelectorAll('.activity-card');
+        
+                cards.forEach(card => {
+                    const toggle = card.querySelector('.activity-toggle');
+                    const body = card.querySelector('.activity-body');
+                    let isExpanding = false;
+        
+                    const toggleCard = (e) => {
+                        if (isExpanding) return;
+                        isExpanding = true;
+        
+                        const isExpanded = body.classList.contains('expanded');
+        
+                        // Store the scroll position
+                        const scrollPos = window.scrollY;
+        
+                        if (!isExpanded) {
+                            // Expanding
+                            body.style.height = '0px';
+                            body.classList.add('expanded');
+                            
+                            // Get the final height
+                            const finalHeight = body.scrollHeight;
+                            
+                            // Set the height for transition
+                            body.style.height = finalHeight + 'px';
+                            toggle.classList.add('expanded');
+        
+                            // After transition, set to auto
+                            setTimeout(() => {
+                                body.style.height = 'auto';
+                                isExpanding = false;
+                            }, 300);
+                        } else {
+                            // Collapsing
+                            const currentHeight = body.scrollHeight;
+                            body.style.height = currentHeight + 'px';
+                            
+                            // Force reflow
+                            body.offsetHeight;
+                            
+                            // Collapse
+                            body.style.height = '0px';
+                            toggle.classList.remove('expanded');
+        
+                            setTimeout(() => {
+                                body.classList.remove('expanded');
+                                isExpanding = false;
+                            }, 300);
+                        }
+        
+                        // Restore scroll position to prevent page jump
+                        window.scrollTo(0, scrollPos);
+                    };
+        
+                    // Handle click events
+                    const handleClick = (e) => {
+                        if (e.target.closest('.activity-toggle')) {
+                            e.stopPropagation();
+                            toggleCard(e);
+                        } else if (!e.target.closest('a') && e.target.closest('.activity-card') === card) {
+                            toggleCard(e);
+                        }
+                    };
+        
+                    card.addEventListener('click', handleClick);
+                });
+            });
+        </script>
+
+    </section>
+    <!-- Activities Section END -->
+
+    <section id="myContact">
+
+        <style>
+          :root {
+            --primary-blue: #2563eb;
+            --hover-blue: #1d4ed8;
+            --text-primary: #fff;
+            --text-secondary: #94a3b8;
+            --bg-dark: #000;
+            --bg-input: #000000;
+          }
+
+          #myContact {
+            margin-top: 0px;
+            padding-top: 3%;
+          }
+      
+          #contact {
+            width: 100%;
+            min-height: 100vh;
+            background-color: var(--bg-dark);
+            padding: 2rem 1rem;
+          }
+      
+          .contact-wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            padding: 2rem;
+          }
+      
+          .form-group {
+            margin-bottom: 1.1rem;
+          }
+      
+          .form-control {
+            width: 100%;
+            padding: 1rem 1rem;
+            background-color: var(--bg-input);
+            border: 2px solid #ffffff3f;
+            border-radius: 0.5rem;
+            color: var(--text-primary);
+            transition: all 0.2s ease;
+          }
+      
+          .form-control:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1);
+          }
+      
+          textarea.form-control {
+            min-height: 150px;
+          }
+      
+          .send-button {
+            width: 100%;
+            padding: 0.75rem 1.5rem;
+            background-color: var(--primary-blue);
+            color: white;
+            border: none;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+          }
+      
+          .send-button:hover {
+            background-color: var(--hover-blue);
+          }
+      
+          .contact-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+          }
+      
+          .list-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            color: var(--text-secondary);
+          }
+      
+          .list-item i {
+            width: 1.5rem;
+            color: var(--primary-blue);
+            margin-right: 1rem;
+          }
+      
+          .contact-text {
+            font-size: 1rem;
+          }
+      
+          .contact-text a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.2s ease;
+          }
+      
+          .contact-text a:hover {
+            color: var(--primary-blue);
+          }
+      
+          .social-media-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 0;
+            margin: 0rem 0;
+            list-style: none;
+            align-items: center;
+            justify-content: center;
+          }
+      
+          .social-media-list li {
+            width: 2.2rem;
+            height: 2.4rem;
+          }
+      
+          .social-media-list a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.063);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 0.5rem;
+            transition: all 0.2s ease;
+          }
+      
+          .social-media-list a:hover {
+            background-color: var(--text-primary);
+            transform: translateY(-2px) scale(1.1);
+            text-decoration: none;
+          }
+      
+          hr {
+            border: none;
+            border-top: 1px solid #ffffff39;
+            margin: 2rem 0;
+          }
+      
+          .copyright {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            text-align: center;
+          }
+      
+          @media (max-width: 912px) {
+            .contact-wrapper {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .social-media-list li{
+              width: 3rem;
+              height: 3rem;
+            }
+          }
+        </style>
+        <div class="h1 text-center" data-aos="zoom-in-up">
+            <div class="about-header">
+                Contact
+            </div>
+        </div>
+      
+        <div class="contact-wrapper">
+          <form id="contact-form" class="form-horizontal" role="form">
+            <div class="form-group"  data-aos="fade-up">
+              <input type="text" class="form-control" id="name" placeholder="Your Name" name="name" required>
+            </div>
+      
+            <div class="form-group"  data-aos="fade-up">
+              <input type="email" class="form-control" id="email" placeholder="Your Email" name="email" required>
+            </div>
+      
+            <div class="form-group" data-aos="fade-up">
+              <textarea class="form-control" rows="6" placeholder="Your Message" id="message" name="message" required style="resize: none;"></textarea>
+            </div>
+      
+            <button class="send-button" id="submit" type="submit">
+              Send Message
+            </button>
+          </form>
+          <script>
+            (function() {
+                emailjs.init("ePlqtKxN6_D6Yy4Tb"); // Initialize with your public key
+            })();
+        
+            document.getElementById('contact-form').addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Show loading state
+                const btn = this.querySelector('button');
+                btn.textContent = 'Sending...';
+                btn.disabled = true;
+                
+                
+                // Prepare template parameters
+                const templateParams = {
+                    to_email: 'vijayvaradarajan84@gmail.com', // Your email
+                    from_name: this.querySelector('#name').value,
+                    from_email: this.querySelector('#email').value,
+                    message: this.querySelector('#message').value
+                };
+                
+                
+                // Send email
+                emailjs.init("ePlqtKxN6_D6Yy4Tb");
+                emailjs.send('service_an7zx9m', 'template_dv0dk14', templateParams)
+                .then(() => {
+                        btn.textContent = 'Message sent';
+                        alert('Message sent successfully!');
+                        this.reset();
+                    })
+                    .catch((error) => {
+                        alert('Failed to send message: ' + error.text);
+                    })
+                    .finally(() => {
+                        btn.textContent = 'Send Message';
+                        btn.disabled = false;
+                    });
+            });
+        </script>
+          
+
+          <div class="direct-contact-container">
+
+                  <figure data-aos="fade-up">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.270267812217!2d79.1559336!3d12.9692232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad479f0ccbe067%3A0xfef222e5f36ecdeb!2sVellore%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1647610120197!5m2!1sen!2sin"
+                      width="100%"  height="220" loading="lazy" style="border-radius: 10px;"></iframe>
+                  </figure>
+      
+            <hr>
+      
+            <ul class="social-media-list">
+              <li>
+                <a href="tel:+917358527979" target="_blank">
+                    <i class="fas fa-phone" style="color: #3a6bff;"></i>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:vijayvaradarajan84@gmail.com" target="_blank">
+                    <i class="far fa-envelope" style="color: #3a6bff!important;"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/vijay-varadarajan" target="_blank">
+                    <i class="fab fa-linkedin" style="color: #3a6bff!important;"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/vijay-varadarajan" target="_blank">
+                    <i class="fab fa-github" style="color: #3a6bff !important;"></i>
+                </a>
+            </li>
+            <li>
+                  <a href="https://youtube.com/@vijayvaradarajan84" target="_blank">
+                      <i class="fab fa-youtube" style="color: #3a6bff !important;"></i>
+                  </a>
+              </li>
+            <li>
+                  <a href="https://www.discordapp.com/users/811927228983934976" target="_blank">
+                      <i class="fab fa-discord" style="color: #3a6bff !important;"></i>
+                  </a>
+              </li>
+            <li>
+                  <a href="https://t.me/vijayvaradarajan84" target="_blank">
+                      <i class="fab fa-telegram" style="color: #3a6bff !important;"></i>
+                  </a>
+              </li>
+            <li>
+                  <a href="https://x.com/__vj84" target="_blank">
+                      <i class="fab fa-twitter-square" style="color: #3a6bff !important;"></i>
+                  </a>
+              </li>
+            </ul>
+      
+            <hr>
+          </div>
+        </div>
+      </section>
+
+    <!-- Footer -->
+    <footer class="m-3 mx-auto">
+        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.356); color: rgba(255, 255, 255, 0.581)">All Rights Reserved &copy; 2024
+        </div>
+    </footer>
+
+    
+    <!-- Initialize Animation -->
+    <script>
+        AOS.init();
+    </script>
+    
+    <script src="js/main.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 </body>
 
 </html>
