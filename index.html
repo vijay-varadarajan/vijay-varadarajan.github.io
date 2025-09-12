@@ -42,7 +42,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <meta property="og:title" content="Official portfolio website of Vijay Varadarajan.
-        Software | Automation | Web Development | Machine Learning | Bioinformatics">
+        Agentic AI | Software | Automation | Web Development | Machine Learning | Bioinformatics">
     <meta property="og:image"
         content="Images/Vijay-Linkedin-profile.jpg">
 </head>
@@ -86,137 +86,603 @@
     </nav>
 
     <style>
-        #imgstyles {
-            border-radius: 50%;
-            border: 2px solid #FFFFFF;
-            margin-bottom: 10px;
-        }
-
-        #imgstyles:hover {
-            transform: scale(1.05);
-            transition: transform 0.2s;
-        }
-    </style>
-
-    <!-- Home Section START -->
-    <section id="home" style="margin-top: 2%">
-        <img id="imgstyles" class="d-block mx-auto" src="Images/Vijay-Linkedin-profile.jpg" height="232" width="auto"
-            data-aos="zoom-in-up">
-        <div class="h1 mt-3 text-center" style="color: #FFFFFF; font-weight: 600">Vijay Varadarajan</div>
-
-        <div class="cd-intro m-3 text-center">
-            <h4 class="cd-headline slide">
-                <span class="cd-words-wrapper" style="width:250px !important; color: #3a6bff">
-                    <b class="is-visible">Agentic AI</b>
-                    <b>Automation</b>
-                    <b>Data Analytics</b>
-                    <b>Web Dev</b>
-                    <b>Machine Learning</b>
-                    <b>Bioinformatics</b>
-                    <b>Technical Writing</b>
-                </span>
-            </h4>
-        </div>
-
-
-        <style>
-            .btn{
-                border-radius: 10px;
-                background-color: #2563eb;
-                border: 2px solid #2563eb;
-                width: 150px;
-                height: 42px;
-                padding-top: 8px;
-            }
-        </style>
-        <div class="d-flex align-items-center" style="z-index: 1;">
-            <a href="https://drive.google.com/file/d/1auIWwITAkPgGJSe5oiPuTcTKIVZiiSD4/view?usp=drivesdk"
-                class="btn btn-outline-light d-block mx-auto m-4" target="_blank" role="button" style="z-index: 1;"><i
-                    class="fas fa-file mr-2"></i>
-
-                <b>Resume</b></a>
-        </div>
-
-        <style>
-            #main-socials a:hover{
-                transform: translateY(-2px);
-                transition: transform 0.2s;
-            }
-        </style>
-
-        <div id="main-socials" class="container-fluid d-block mx-auto text-center" style="width:fit-content;" data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom">
-            <a href="mailto: vijayvaradarajan84@gmail.com" target="_blank"
-            class="fas fa-envelope" style="color: #ff4b4b; font-size: 32px; margin: 1px 10px -10px 0"></a>
-            <a href="https://github.com/vijay-varadarajan" target="_blank"
-            class="fab fa-github" style="color: #ffffff; font-size:32px;"></a>
-            <a href="https://www.discordapp.com/users/811927228983934976" target="_blank"
-            class="fab fa-discord" style="color: #897eff; font-size: 32px"></a>
-            <a href="https://www.linkedin.com/in/vijay-varadarajan" target="_blank"
-            class="fab fa-linkedin" style="color: #3a6bff; font-size:32px"></a>
-        </div>
-    </section>
-    <!-- Home Section END -->
-
-    <style>
-        .scroll-down {
-            bottom: 20px;
-            left: 50%;
-            
-            animation: bounce 2s infinite;
+        /* Creative Home Section Styles */
+        #home {
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            color: #fff;
-            font-size: 14px;
-            font-weight: bold;
-            margin: 20px 0 4px 0;
+            padding-top: 50px;
+            margin-top: 0px;
         }
-        
-        .scroll-down span {
-            display: block;
-            width: 0;
-            height: 0;
-            border-left: 10px solid transparent;
-            border-right: 10px solid transparent;
-            border-top: 15px solid #fff;
-            animation: bounce 2s infinite;
+
+        /* Animated background elements */
+        .bg-element {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(40px);
+            opacity: 0.15;
+            z-index: -1;
+            animation: float 20s infinite alternate ease-in-out;
         }
-        
-        .scroll-down::after {
-            content: "Scroll Down";
-            margin-top: 5px;
-            animation: fadeIn 2s infinite;
+
+        .bg-element-1 {
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle at center, rgba(37, 99, 235, 0.7), rgba(37, 99, 235, 0.2));
+            top: -100px;
+            left: -150px;
+            animation-delay: 0s;
         }
-        
-        @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% {
-                transform: translateY(0px);
-            }
-            40% {
-                transform: translateY(-5px);
-            }
-            60% {
-                transform: translateY(-5px);
-            }
+
+        .bg-element-2 {
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle at center, rgba(58, 107, 255, 0.7), rgba(58, 107, 255, 0.2));
+            bottom: -150px;
+            right: -100px;
+            animation-delay: 5s;
         }
-        
-        @keyframes fadeIn {
-            0%, 100% {
-                opacity: 1;
+
+        .bg-element-3 {
+            width: 350px;
+            height: 350px;
+            background: radial-gradient(circle at center, rgba(78, 127, 255, 0.6), rgba(78, 127, 255, 0.1));
+            top: 50%;
+            right: 10%;
+            animation-delay: 10s;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translate(0, 0) scale(1);
             }
             50% {
+                transform: translate(30px, 30px) scale(1.1);
+            }
+            100% {
+                transform: translate(-30px, -30px) scale(0.9);
+            }
+        }
+
+        /* Split layout */
+        .home-split {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            position: relative;
+        }
+
+        /* Left side - Profile image */
+        .home-left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .profile-sphere {
+            position: relative;
+        }
+
+        .profile-ring {
+            position: absolute;
+            width: 320px;
+            height: 290px;
+            border-radius: 50%;
+            border: 2px solid rgba(37, 99, 235, 0.3);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: rotate 20s linear infinite;
+        }
+
+        .profile-ring::before, .profile-ring::after {
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #2563eb;
+        }
+
+        .profile-ring::before {
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .profile-ring::after {
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .profile-ring-2 {
+            animation: rotate 15s linear infinite reverse;
+            width: 310px;
+            height: 340px;
+        }
+
+        .profile-ring-2::before, .profile-ring-2::after {
+            background: #3a6bff;
+        }
+
+        .profile-ring-2::before {
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+
+        .profile-ring-2::after {
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+        }
+
+        @keyframes rotate {
+            from { transform: translate(-50%, -50%) rotate(0deg); }
+            to { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+
+        .profile-image {
+            position: relative;
+            width: 260px;
+            height: 260px;
+            z-index: 2;
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #2563eb;
+            padding: 5px;
+            background: rgba(25, 30, 45, 0.3);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .profile-image::after {
+            content: "";
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border-radius: 50%;
+            border: 2px solid rgba(37, 99, 235, 0.3);
+            animation: pulse 2s infinite;
+        }
+
+        .profile-image img:hover {
+            transform: scale(1.05);
+            border-color: #3a6bff;
+            box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
+        }
+
+        /* Right side - Content */
+        .home-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 2rem;
+        }
+
+        .name-title {
+            margin-bottom: 1rem;
+            position: relative;
+        }
+
+        .name-title h1 {
+            color: #FFFFFF;
+            font-weight: 700;
+            font-size: 3.5rem;
+            line-height: 1.1;
+            margin-bottom: 0.5rem;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        .name-title h1::after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 3px;
+            background: linear-gradient(90deg, #2563eb, #3a6bff);
+            margin: 0.5rem 0;
+            border-radius: 2px;
+        }
+
+        /* Modern typing effect */
+        .typing-container {
+            margin: 1.5rem 0;
+            height: 30px;
+            position: relative;
+            align-self: flex-start;
+        }
+
+        .typing-text {
+            color: #3a6bff;
+            font-size: 1.3rem;
+            font-weight: 500;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            position: relative;
+            display: inline-block;
+        }
+
+        .typing-text::after {
+            content: "|";
+            position: absolute;
+            right: -8px;
+            animation: blink 0.7s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        /* Modern button styles */
+        .buttons-container {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #2563eb 0%, #3a6bff 100%);
+            color: white;
+            font-weight: 600;
+            padding: 0.75rem 2rem;
+            border-radius: 50px;
+            border: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            text-decoration: none !important;
+            box-shadow: 0 4px 10px rgba(37, 99, 235, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-button::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 100%);
+            transform: translateX(-100%);
+            transition: transform 0.6s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 15px rgba(37, 99, 235, 0.4);
+            color: white; /* Keep text white on hover */
+            text-decoration: none !important; /* Remove underline on hover */
+        }
+
+        .cta-button:hover::before {
+            transform: translateX(100%);
+        }
+
+        .cta-button i {
+            margin-right: 0.5rem;
+            position: relative;
+            top: 1px;
+        }
+
+        /* Modern social icons */
+        .social-icons {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .social-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            text-decoration: none !important; /* Remove underline */
+        }
+
+        .social-icon::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            transform: scale(0);
+            transition: transform 0.3s ease;
+            border-radius: 50%;
+        }
+
+        .social-icon:hover {
+            transform: translateY(-5px);
+            text-decoration: none !important; /* Remove underline on hover */
+        }
+
+        .social-icon:hover::before {
+            transform: scale(1);
+        }
+
+        .social-icon i {
+            position: relative;
+            z-index: 2;
+            transition: all 0.3s ease;
+        }
+
+        .email-icon { color: #ff4b4b; }
+        .github-icon { color: #ffffff; }
+        .discord-icon { color: #897eff; }
+        .linkedin-icon { color: #3a6bff; }
+
+        /* Pulse animation for profile picture */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
                 opacity: 0.5;
+            }
+            50% {
+                transform: scale(1.05);
+                opacity: 0.2;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 0.5;
+            }
+        }
+
+        /* Modern scroll indicator */
+        .scroll-indicator {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            width: 30px;
+            height: 50px;
+        }
+
+        .scroll-indicator .mouse {
+            width: 26px;
+            height: 40px;
+            border: 2px solid #fff;
+            border-radius: 20px;
+            position: relative;
+        }
+
+        .scroll-indicator .mouse .wheel {
+            background-color: #fff;
+            width: 4px;
+            height: 8px;
+            position: absolute;
+            top: 8px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 4px;
+            animation: scroll 2s infinite;
+        }
+
+        .scroll-indicator .text {
+            color: #fff;
+            font-size: 12px;
+            letter-spacing: 1px;
+            margin-top: 10px;
+            font-weight: 500;
+            opacity: 0.8;
+        }
+
+        @keyframes scroll {
+            0% {
+                opacity: 1;
+                transform: translateX(-50%) translateY(0);
+            }
+            100% {
+                opacity: 0;
+                transform: translateX(-50%) translateY(15px);
+            }
+        }
+
+        /* Media queries for responsive design */
+        @media (max-width: 920px) {
+            #home {
+                padding-top: 100px; /* Add padding to prevent overlap with navbar */
+            }
+            
+            .home-split {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .home-right {
+                align-items: center;
+                text-align: center;
+                padding: 1rem;
+            }
+            
+            .name-title h1 {
+                font-size: 2.5rem;
+            }
+            
+            .name-title h1::after {
+                margin: 0.5rem auto;
+            }
+            
+            .buttons-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .profile-ring, .profile-ring-2 {
+                display: none;
+            }
+            
+            .typing-container {
+                align-self: center; /* Center the typing container */
+            }
+        }
+
+        @media (max-width: 768px) {
+            #home {
+                padding-top: 120px;
+                height: auto;
+                min-height: 100vh;
+            }
+            
+            .home-left {
+                margin-bottom: 2rem;
+            }
+            
+            .profile-image {
+                width: 150px;
+                height: 150px;
+            }
+            
+            .name-title h1 {
+                font-size: 2rem;
+            }
+            
+            .typing-text {
+                font-size: 1rem;
+            }
+            
+            .bg-element {
+                opacity: 0.1;
             }
         }
     </style>
 
-    <a href="#aboutMe">
-    <div class="scroll-down">
-        <span></span>
-    </div>
-    </a>
+    <!-- Home Section START -->
+    <section id="home">
+        <!-- Animated background elements -->
+        <div class="bg-element bg-element-1"></div>
+        <div class="bg-element bg-element-2"></div>
+        <div class="bg-element bg-element-3"></div>
+        
+        <div class="home-split">
+            <div class="home-left" data-aos="fade-right" data-aos-duration="1000">
+                <div class="profile-sphere">
+                    <div class="profile-ring"></div>
+                    <div class="profile-ring profile-ring-2"></div>
+                    <div class="profile-image">
+                        <img src="Images/Vijay-Linkedin-profile.jpg" alt="Vijay Varadarajan">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="home-right" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="name-title">
+                    <h1>Vijay Varadarajan</h1>
+                </div>
+                
+                <div class="typing-container">
+                    <span class="typing-text">
+                        <!-- The typing effect will be handled by JavaScript -->
+                    </span>
+                </div>
+                
+                <div class="buttons-container">
+                    <a href="https://drive.google.com/file/d/1auIWwITAkPgGJSe5oiPuTcTKIVZiiSD4/view?usp=drivesdk" 
+                       class="cta-button" target="_blank">
+                        <i class="fas fa-file"></i> Resume
+                    </a>
+                    
+                    <div class="social-icons">
+                        <a href="mailto:vijayvaradarajan84@gmail.com" target="_blank" class="social-icon">
+                            <i class="fas fa-envelope email-icon" style="font-size: 18px;"></i>
+                        </a>
+                        <a href="https://github.com/vijay-varadarajan" target="_blank" class="social-icon">
+                            <i class="fab fa-github github-icon" style="font-size: 18px;"></i>
+                        </a>
+                        <a href="https://www.discordapp.com/users/811927228983934976" target="_blank" class="social-icon">
+                            <i class="fab fa-discord discord-icon" style="font-size: 18px;"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/vijay-varadarajan" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin linkedin-icon" style="font-size: 18px;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Removed the scroll indicator -->
+    </section>
+    <!-- Home Section END -->
+
+    <script>
+        // Modern typing effect for skills
+        document.addEventListener("DOMContentLoaded", function() {
+            const skills = [
+                "Web Development",
+                "Agentic AI",
+                "Automation",
+                "Data Analytics",
+                "Machine Learning",
+                "Bioinformatics",
+                "Technical Writing"
+            ];
+            
+            const typingText = document.querySelector(".typing-text");
+            let skillIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+            let typingDelay = 100;
+            
+            function typeSkill() {
+                const currentSkill = skills[skillIndex];
+                
+                if (isDeleting) {
+                    typingText.textContent = currentSkill.substring(0, charIndex - 1);
+                    charIndex--;
+                    typingDelay = 50;
+                } else {
+                    typingText.textContent = currentSkill.substring(0, charIndex + 1);
+                    charIndex++;
+                    typingDelay = 150;
+                }
+                
+                if (!isDeleting && charIndex === currentSkill.length) {
+                    isDeleting = true;
+                    typingDelay = 1500; // Pause at the end
+                } else if (isDeleting && charIndex === 0) {
+                    isDeleting = false;
+                    skillIndex = (skillIndex + 1) % skills.length;
+                    typingDelay = 500; // Pause before typing next
+                }
+                
+                setTimeout(typeSkill, typingDelay);
+            }
+            
+            // Start the typing effect
+            setTimeout(typeSkill, 1000);
+        });
+    </script>
+    <!-- Removed redundant closing style tag and scroll element -->
 
     <!-- About Section START -->
 
@@ -400,7 +866,7 @@
                 
                 <div class="section-title">Leadership & Collaboration</div>
                 <p class="section-content">
-                    As an experienced team leader, I've successfully guided diverse teams through multiple hackathons and collaborative projects. I have also served as the Board Member / Technical head for IET-VIT Chapter (2024-2025).
+                    As an experienced team leader, I've successfully guided diverse teams through multiple hackathons and collaborative projects. I have also served as the Board Member / Technical head for IET-VIT Chapter (2024-2025). As a programme representative at my university, I actively advocate for student interests and foster a collaborative learning environment.
                 </p>
                 
                 <div class="section-title">Let's Collaborate</div>
@@ -516,7 +982,7 @@
 }
 
 .experience-details .location {
-    color: #b7b6bb;
+    color: #3a6bff;
     font-size: 0.875rem;
 }
 
@@ -716,7 +1182,7 @@
     }
 
     .location {
-        color: #b7b6bb;
+        color: #3a6bff;
         font-size: 0.875rem;
         margin-bottom: 0.5rem;
     }
@@ -767,21 +1233,21 @@
         <div class="education-item">
             <div class="duration">2022 - 2026</div>
             <div class="institution">Vellore Institute of Technology, Vellore Campus</div>
-            <div class="location">Vellore, Tamil Nadu, India</div>
+            <div class="location">Vellore, India</div>
             <div class="degree">B.Tech. Computer Science with Bioinformatics</div>
         </div>
 
         <div class="education-item">
             <div class="duration">2022</div>
             <div class="institution">Computer Software College (CSC)</div>
-            <div class="location">Chennai, Tamil Nadu, India</div>
+            <div class="location">Chennai, India</div>
             <div class="degree">Diploma in Computer Programming</div>
         </div>
         
         <div class="education-item">
             <div class="duration">2020-2022</div>
             <div class="institution">Alpha Matriculation Hr. Sec. School</div>
-            <div class="location">Chennai, Tamil Nadu, India</div>
+            <div class="location">Chennai, India</div>
             <div class="degree">Higher Secondary - Science and Mathematics</div>
         </div>
     </div>
@@ -845,6 +1311,7 @@
             padding: 1rem;
             background: rgba(255, 255, 255, 0.05);
             border-radius: 8px;
+            border: 1px solid #3a6bff;
             transition: transform 0.5s ease, background 0.5s ease;
             min-width: 120px;
         }
@@ -964,67 +1431,68 @@
         
         <div class="skills-group" data-aos="fade-up">
             <div class="skills-title">Libraries / Frameworks</div>
-            <div class="marquee marquee--reverse">
-                <div class="marquee__content">
-                    <!-- Content for frameworks -->
-                    <div class="skill-item" style="color: #e43e00">
-                        <img src="Images/icons8-tensorflow.svg" alt="Tensorflow" style="width: 40px; height: 78px;">
-                        <div class="title">Tensorflow</div>
+                <div class="marquee marquee--reverse">
+                    <div class="marquee__content">
+                        <!-- Content for frameworks -->
+                        <div class="skill-item" style="color: #e43e00">
+                            <img src="Images/icons8-tensorflow.svg" alt="Tensorflow" style="width: 40px; height: 78px;">
+                            <div class="title">Tensorflow</div>
+                        </div>
+                        <div class="skill-item" style="color: #e43e00">
+                            <img src="Images/django.svg" alt="Django" style="width: 30px; height: 75px;">
+                            <div class="title">Django</div>
+                        </div>
+                        <div class="skill-item" style="color: #e43e00">
+                            <img src="Images/flask.png" alt="Flask" style="width: 40px; height: 45px; margin-top: 10px">
+                            <div class="title"  style="margin-top: 20px">Flask</div>
+                        </div>
+                        <div class="skill-item" style="color: #e43e00">
+                            <img src="Images/OpenCV.svg" alt="Opencv" style="width: 40px; height: 75px;">
+                            <div class="title">OpenCV</div>
+                        </div>
+                        <div class="skill-item" style="color: #e43e00">
+                            <i class="fab fa-node-js"></i>
+                            <div class="title" style="margin-top: -5px;">Node.js</div>
+                        </div>
+                        <div class="skill-item" style="color: #6fc3ff;  margin-right: 15px">
+                            <i class="fab fa-react"></i>
+                            <div class="title">ReactJS</div>
+                        </div>
+                        <div class="skill-item" style="color: #e43e00">
+                            <img src="Images/icons8-langchain.svg" alt="Tensorflow" style="width: 60px; height: 78px;">
+                            <div class="title">Langchain</div>
+                        </div>
                     </div>
-                    <div class="skill-item" style="color: #e43e00">
-                        <img src="Images/django.svg" alt="Django" style="width: 30px; height: 75px;">
-                        <div class="title">Django</div>
-                    </div>
-                    <div class="skill-item" style="color: #e43e00">
-                        <img src="Images/flask.png" alt="Flask" style="width: 40px; height: 45px; margin-top: 10px">
-                        <div class="title"  style="margin-top: 20px">Flask</div>
-                    </div>
-                    <div class="skill-item" style="color: #e43e00">
-                        <img src="Images/OpenCV.svg" alt="Opencv" style="width: 40px; height: 75px;">
-                        <div class="title">OpenCV</div>
-                    </div>
-                    <div class="skill-item" style="color: #e43e00">
-                        <i class="fab fa-node-js"></i>
-                        <div class="title" style="margin-top: -5px;">Node.js</div>
-                    </div>
-                    <div class="skill-item" style="color: #6fc3ff;  margin-right: 15px">
-                        <i class="fab fa-react"></i>
-                        <div class="title">ReactJS</div>
-                    </div>
-                    <div class="skill-item" style="color: #e43e00">
-                        <img src="Images/icons8-langchain.svg" alt="Tensorflow" style="width: 60px; height: 78px;">
-                        <div class="title">Langchain</div>
-                    </div>
-                </div>
-                <div class="marquee__content" aria-hidden="true">
-                    <!-- Duplicate content -->
-                    <div class="skill-item" style="color: #e43e00">
-                        <img src="Images/icons8-tensorflow.svg" alt="Tensorflow" style="width: 40px; height: 78px;">
-                        <div class="title">Tensorflow</div>
-                    </div>
-                    <div class="skill-item" style="color: #e43e00">
-                        <img src="Images/django.svg" alt="Django" style="width: 30px; height: 75px;">
-                        <div class="title">Django</div>
-                    </div>
-                    <div class="skill-item" style="color: #e43e00">
-                        <img src="Images/flask.png" alt="Flask" style="width: 40px; height: 45px; margin-top: 10px">
-                        <div class="title"  style="margin-top: 20px">Flask</div>
-                    </div>
-                    <div class="skill-item" style="color: #e43e00">
-                        <img src="Images/OpenCV.svg" alt="Opencv" style="width: 40px; height: 75px;">
-                        <div class="title">OpenCV</div>
-                    </div>
-                    <div class="skill-item" style="color: #e43e00">
-                        <i class="fab fa-node-js"></i>
-                        <div class="title" style="margin-top: -5px;">Node.js</div>
-                    </div>
-                    <div class="skill-item" style="color: #6fc3ff;  margin-right: 15px">
-                        <i class="fab fa-react"></i>
-                        <div class="title">ReactJS</div>
-                    </div>
-                    <div class="skill-item" style="color: #e43e00">
-                        <img src="Images/icons8-langchain.svg" alt="Tensorflow" style="width: 60px; height: 78px;">
-                        <div class="title">Langchain</div>
+                    <div class="marquee__content" aria-hidden="true">
+                        <!-- Duplicate content -->
+                        <div class="skill-item" style="color: #e43e00">
+                            <img src="Images/icons8-tensorflow.svg" alt="Tensorflow" style="width: 40px; height: 78px;">
+                            <div class="title">Tensorflow</div>
+                        </div>
+                        <div class="skill-item" style="color: #e43e00">
+                            <img src="Images/django.svg" alt="Django" style="width: 30px; height: 75px;">
+                            <div class="title">Django</div>
+                        </div>
+                        <div class="skill-item" style="color: #e43e00">
+                            <img src="Images/flask.png" alt="Flask" style="width: 40px; height: 45px; margin-top: 10px">
+                            <div class="title"  style="margin-top: 20px">Flask</div>
+                        </div>
+                        <div class="skill-item" style="color: #e43e00">
+                            <img src="Images/OpenCV.svg" alt="Opencv" style="width: 40px; height: 75px;">
+                            <div class="title">OpenCV</div>
+                        </div>
+                        <div class="skill-item" style="color: #e43e00">
+                            <i class="fab fa-node-js"></i>
+                            <div class="title" style="margin-top: -5px;">Node.js</div>
+                        </div>
+                        <div class="skill-item" style="color: #6fc3ff;  margin-right: 15px">
+                            <i class="fab fa-react"></i>
+                            <div class="title">ReactJS</div>
+                        </div>
+                        <div class="skill-item" style="color: #e43e00">
+                            <img src="Images/icons8-langchain.svg" alt="Tensorflow" style="width: 60px; height: 78px;">
+                            <div class="title">Langchain</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1325,7 +1793,7 @@
                 <style>
                     .apps-container {
                       padding: 2rem;
-                      background-color: #000;
+                      background-color: #0e0d0d;
                       color: #fff;
                     }
                     
@@ -1765,7 +2233,7 @@
         <style>
             .activities-section {
                 padding: 3rem 4rem;
-                background-color: #000;
+                background-color: #080707;
                 color: #fff;
                 min-height: 80vh;
                 display: flex;
@@ -2012,6 +2480,28 @@
             <div class="activities-container">
                 <div class="activities-grid">
 
+                    <div class="activity-card w-large" data-aos="fade-up">
+                        <div class="activity-content">
+                            <div class="activity-header">
+                                <div class="activity-header-content">
+                                    <div class="activity-icon">🏅</div>
+                                    <h3 class="activity-title">AWS Certified Solutions Architect</h3>
+                                    <div class="activity-tags">
+                                        <span class="activity-tag">Academics</span>
+                                        <span class="activity-tag">AWS</span>
+                                        <span class="activity-tag">Cloud</span>
+                                    </div>
+                                </div>
+                                <button class="activity-toggle">↓</button>
+                            </div>
+                            <div class="activity-body" style="display: flex; flex-direction: column; align-items: center; justify-content:center">
+                                <p class="activity-description">Successfully completed the AWS Certified Solutions Architect examination. Ready to apply my knowledge of AWS cloud services in real-world scenarios.</p>
+                                <img src="Images/AWS-certificate.png" alt="Hackathon" width="70%">
+                                <div class="activity-meta">April 2024 • VIT University, Vellore Campus</div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="activity-card w-small" data-aos="fade-up">
                         <div class="activity-content">
                             <div class="activity-header">
@@ -2077,11 +2567,11 @@
                     </div>
                     
                     
-                    <div class="activity-card w-large" data-aos="fade-up">
+                    <div class="activity-card w-medium" data-aos="fade-up">
                         <div class="activity-content">
                             <div class="activity-header">
                                 <div class="activity-header-content">
-                                    <div class="activity-icon">🏆</div>
+                                    <div class="activity-icon">⛏️</div>
                                     <h3 class="activity-title">Summer Program</h3>
                                     <div class="activity-tags">
                                         <span class="activity-tag">IET-VIT</span>

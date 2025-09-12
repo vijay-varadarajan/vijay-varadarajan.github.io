@@ -8,7 +8,7 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   background: rgba(25, 25, 25, 0.9);
-  background-color: #000000; /* Used if the image is unavailable */
+  background-color: #0e0d0d; /* Used if the image is unavailable */
   background-position: center; /* Center the image */
   background-attachment: fixed;
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb:hover {
   top: 0;
   width: 100%;
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #0e0d0d;
   border-bottom: 1px solid #ffffff;
 }
 
